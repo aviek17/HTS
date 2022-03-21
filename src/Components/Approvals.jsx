@@ -65,7 +65,7 @@ const Approvals = () => {
                 <div className="circle">
 
                 </div>
-                <div className="card cardApproval">
+                <div className="card cardApprovals">
                     <div className="approvalText">
                         <p>
                             <span> ||` </span>Government Of Andhra Pradesh, RWS & S Department <br /><br />
@@ -125,7 +125,7 @@ const Approvals = () => {
                         </p>
                     </div>
                 </div>
-                <div className="circle">
+                <div className="circle  ">
 
                 </div>
                 <div className="card cardApproval1">

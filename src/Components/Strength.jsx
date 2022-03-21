@@ -40,6 +40,7 @@ const Strength = () => {
                             <p>
                                 HTS Testing Facility with modern equipment’s include
                                 <br />
+                                
                                 <span>||</span> Panel Testing Trolley (Chair Type)<br />
                                 <span>||</span> High Voltage Tester(5kv,30kv & 80kv)<br />
                                 <span>||</span> Megger (2.5kv & 5kv)<br />

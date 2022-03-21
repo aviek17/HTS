@@ -87,7 +87,7 @@ const HomeClient = () => {
                         loop margin={10}
                         nav={true}
                         autoplay={true}
-                        autoplayTimeout={2000}
+                        autoplayTimeout={2500}
                         autoplayHoverPause={true}
                         responsive={{
                             0: {

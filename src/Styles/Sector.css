@@ -1,7 +1,9 @@
 
-.why {
+.why1 {
+  color: maroon;
+  font-family:Arial ;
+  font-size: 30px;
   margin-top: 30px;
- 
   text-align: center;
 }
 
@@ -56,8 +58,8 @@
 .containerS .cardS{
  
   /* position: relative; */
-  width: 280px;
-  height: 400px;
+  width: 220px;
+  height: 300px;
   margin: 40px;
   box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.5);
   border-radius:15px;
@@ -76,8 +78,8 @@
 
 .containerS .cardS img{
   justify-content: center;
-  height: 220px;
-  width: 220px;
+  height: 150px;
+  width: 150px;
   margin-bottom : 20px;
   border-radius: 50%;
   
@@ -85,7 +87,7 @@
 
 
 .containerS .cardS .contentS{
-  padding:20px;
+  padding:18px;
   text-align: center;
   
   /* opacity: 0.0; */
@@ -97,9 +99,9 @@
 }
 
 .containerS .cardS .contentS h3{
-  font-size: 1.5rem;
+  font-size: 20px;
   color: rgb(255, 247, 247);
-  font-weight: 600;
+  font-weight: 500;
 }
 
 @media screen and (max-width: 600px) {
@@ -107,7 +109,7 @@
     width: 600px;
   }
   .containerS .cardS{
-    margin-left: 100px;
+    margin-left: 80px;
   }
 }
 

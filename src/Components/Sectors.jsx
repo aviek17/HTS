@@ -112,8 +112,8 @@ const data = [
 const Sectors = () => {
     return (
         <>
-            <div className="row why" data-aos="zoom-out">
-                <h1> Sectors We Are Working With...</h1>
+            <div className="row why1" data-aos="zoom-out">
+                <h2> Sectors We Are Working With...</h2>
             </div>
 
 
@@ -169,4 +169,4 @@ const Sectors = () => {
     )
 }
 
-export default Sectors
+export default Sectors;

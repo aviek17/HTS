@@ -21,7 +21,7 @@ const AboutUs = () => {
             <Carousel />
 
             {/* about us */}
-            <section id="aboutUs">
+            <section id="about1">
                 <div className="containerAboutTwo">
                     <div className="row">
                         <div className="col-sm-7" data-aos="zoom-out-down">
@@ -141,7 +141,7 @@ const AboutUs = () => {
                                     <img src={ehs} alt="" />
                                 </div>
                             </div>
-                            <div className="col-sm-7 divViews" data-aos="zoom-out-down">
+                            <div className="col-sm-7 divViews1" data-aos="zoom-out-down">
                                 <h3 className="text-center aboutTwoTitle viewsTitle">Environment Health, Safety (EHS) policy</h3>
                                 <p >
                                     We, at HT Switchgears are committed to cause of promoting environmental conscience in the society by creating the awareness of environment, health and safety by:

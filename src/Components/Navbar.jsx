@@ -55,7 +55,7 @@ const Navbar = () => {
 
                     <li><Link to="/clients">Clients</Link></li>
                     <li><Link to="/contact">Contact Us</Link></li>
-                    <li><img className="ml-3 mt-2 navIconTwo" src={icon2} alt="" height="80px" width="150px" /></li>
+                    <li><img className="ml-3 mt-2 navIconTwo" src={icon2} alt="" height="60px" width="150px" /></li>
                 </ul>
 
                 <div>

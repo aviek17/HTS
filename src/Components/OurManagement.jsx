@@ -12,7 +12,7 @@ const OurManagement = () => {
             <Carousel/>
             <div className="teamTitle teamTitlePara" data-aos="flip-down">
                 <hr />
-                <h1>Our <span>Team</span> </h1>
+                <h1>Our <span>Management</span> </h1>
                 <p>
                     A promising Switchgear Manufacturing and Service provider company was established by a group of expert professionals. Diverse experience came together for achieving a common goal to steer customers through the next generation of business innovation powered by technology. The company was founded on the principle of building and implementing great ideas that drive progress for clients and enhance lives through enterprise solutions.
                 </p>

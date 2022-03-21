@@ -6,12 +6,12 @@
 
 nav {
   background: white;
-  height: 100px;
+  height: 80px;
   /* z-index:1; */
 }
 nav div {
   color: rgb(0, 0, 0);
-  margin-left: 100px;
+  margin-left: 60px;
 }
 nav:after {
   content: "";
@@ -19,20 +19,22 @@ nav:after {
   display: table;
 }
 nav .logo {
-  margin-left: 100px;
+  margin-left: 50px;
   float: left;
   color: rgb(7, 7, 7);
   padding-left: 60px;
-  /* margin-top: 20px; */
+ padding-bottom: 20px;
 }
 
 nav ul {
-  float: right;
+  float: centert;
   list-style-type: none;
   /* margin-right: 200px; */
-  margin-left: 150px;
-  padding-top: 5px;
+  margin-left: 50px;
+  /* padding-top: 5px; */
   position: relative;
+  padding-bottom : 50px;
+  padding-left: 100px;
 }
 
 nav ul li {
@@ -48,15 +50,15 @@ nav ul li {
 nav ul li a {
   color: rgb(5, 5, 5);
   text-decoration: none;
-  line-height: 70px;
-  font-size: 25px;
-  padding: 8px 15px;
+  line-height: 20px;
+  font-size: 20px;
+  padding: 8px 10px;
   font-family :'Times New Roman', Times, serif
 }
 
 nav ul ul {
   position: absolute;
-  top: 200px;
+  top: 100px;
   opacity: 0;
   visibility: hidden;
   transition: top 0.3s;
@@ -64,9 +66,10 @@ nav ul ul {
 }
 
 nav ul li:hover > ul {
-  top: 60px;
+  top: 22px;
   opacity: 1;
   visibility: visible;
+  right:110px;
 }
 
 nav ul ul li {
@@ -74,7 +77,7 @@ nav ul ul li {
   left: -180px;
   position: relative;
   margin: 0px;
-  width: 200px;
+  width: 180px;
   float: none;
   display: list-item;
   /* border-bottom: 1px solid rgba(0, 0, 0, 0.3); */
@@ -82,8 +85,8 @@ nav ul ul li {
   
 }
 nav ul ul li a {
-  line-height: 50px;
-  font-size: 22px!important;
+  line-height: 40px;
+  font-size: 20px!important;
 }
 
 nav ul ul li a:hover {
@@ -93,7 +96,7 @@ nav ul ul li a:hover {
 
 nav ul li a:hover {
   border-radius: 10px;
-  box-shadow: 0 0 20px red, 0 0 5px red;
+  box-shadow: 0 0 10px red, 0 0 5px red;
   color: red;
 }
 
@@ -104,7 +107,7 @@ input {
 }
 
 .navIconThree{
-  margin-bottom: 20px;
+  margin-bottom : 50px;
 }
 .navIconTwo{
   display : none
@@ -112,11 +115,15 @@ input {
 @media all and (max-width: 1108px) {
   nav{
     height: auto;
+    width : 100%
   }
   nav ul {
     margin-left: 0;
-    margin-right: 0px;
+    margin-right: 20px;
     float: left;
+  }
+  nav ul li a{
+    line-height : 60px;
   }
   nav .logo {
     padding-left: 30px;
@@ -129,6 +136,8 @@ input {
   nav ul ul li {
     display: block;
     width: 100%;
+    float : left;
+    left : -40%
   }
 
   nav ul ul {
@@ -194,22 +203,24 @@ input {
 }
 
 
-
+/* Carousel */
 
 
 .bg-light {
   background-color: black;
 }
 .carousel-item {
-  height: 500px;
+  height: 400px;
   min-height: 300px;
 }
 .carousel-caption {
-  bottom: 100px;
+  bottom: 30px;
+
 }
+
 .caption1 h5 {
   animation-delay: 1s;
-  font-size: 30px;
+  font-size: 25px;
   /* text-transform: uppercase; */
   letter-spacing: 2px;
   margin-top: 25px;
@@ -220,8 +231,8 @@ input {
   /* float: right; */
   width: 60%;
   margin: auto;
-  font-size: 20px;
-  line-height: 1.9;
+  font-size: 18px;
+  line-height: 1.5;
   color: rgb(232, 234, 235);
   animation-delay: 2s;
   float: left;
@@ -233,12 +244,16 @@ input {
   text-transform: uppercase;
   text-decoration: none;
   background: rgb(196, 134, 93);
-  padding: 10px 30px;
+  padding: 5px 10px;
   display: inline-block;
   color: #000;
   margin-top: 15px;
   animation-delay: 3s;
   float: left;
+}
+.caption2{
+  bottom :   50px;
+ 
 }
 
 .caption2 h5 {
@@ -249,7 +264,7 @@ input {
   margin-top: 25px;
   float: right;
   color : red;
-  margin-right: 180px;
+  margin-right: 50px;
 }
 .caption2 p {
   /* float: right; */
@@ -268,7 +283,7 @@ input {
   text-transform: uppercase;
   text-decoration: none;
   background: rgb(196, 134, 93);
-  padding: 10px 30px;
+  padding: 5px 20px;
   display: inline-block;
   color: #000;
   margin-top: 15px;
@@ -288,17 +303,7 @@ input {
  /* margin-bottom: 200px; */
 }
 .caption3 p {
-  /* float: right; */
-  /* width: 60%;
-  margin: auto;
-  font-size: 20px;
-  line-height: 1.9;
-  color: rgb(232, 234, 235);
-  animation-delay: 2s;
-  float: left;
-  margin-top: 20px;
-  text-align: justify; */
-  /* left: -30px; */
+
 
   width: 60%;
   margin: auto;
@@ -312,11 +317,14 @@ input {
   margin-bottom: 20px;
 }
 
-.caption3 p span{
+.caption3 p span, .caption2 p span, .caption1 p span{
   color : red;
   font-size: 30px;
   font-weight: 600;
 }
+
+
+
 .caption3 a {
 
   text-transform: uppercase;
@@ -355,10 +363,10 @@ input {
   color: #fff;
 }
 .imgCarousel {
-  width: 400px;
+  width: 300px;
   float: right;
   margin-right: 10%;
-  height: 400px;
+  height: 300px;
   margin-top: 50px;
   background: transparent!important;
   border-radius: 50px;
@@ -366,10 +374,10 @@ input {
 }
 
 .imgCarousel1 {
-  width: 400px;
+  width: 300px;
   float: left;
   margin-left: 10%;
-  height: 400px;
+  height: 300px;
   margin-top: 50px;
   opacity: 0.7;
   border-radius: 50px;
@@ -436,7 +444,7 @@ input {
     padding: 10px 15px;
     font-size: 15px;
   }
-  .caption3 p, .caption3 a{
+  .caption3 p, .caption3 a, .caption2 p, .caption1 p{
     display : none;
   }
 }
@@ -449,7 +457,7 @@ input {
 }
 
 .section .containerA {
-  width: 80%;
+  width: 90%;
   display: block;
   margin: 0px auto;
   padding: 50px 0px;
@@ -458,13 +466,13 @@ input {
 .containerA .title {
   width: 100%;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   font-family :Arial, Helvetica, sans-serif;
 }
 
 .containerA .title h1 {
   text-transform: uppercase;
-  font-size: 35px;
+  font-size: 30px;
   color: brown;
 }
 
@@ -479,13 +487,13 @@ input {
 }
 
 .content {
-  float: left;
+  float: right;
   width: 55%;
 }
 
 .image-section {
-  float: right;
-  width: 40%;
+  float: left;
+  width: 45%;
   margin: auto;
 }
 
@@ -504,18 +512,19 @@ input {
 .content .article p {
   text-align : justify;
   margin-top: 20px;
-  font-size: 19px;
+  font-size: 18px;
   line-height: 1.8;
   color: #333;
 }
 
 .content .article .button {
-  margin-top: 50px;
+  margin-top: 30px;
+  
 }
 
 .content .article .button a {
   text-decoration: none;
-  padding: 8px 25px;
+  padding: 8px 15px;
   /* background-color: rgb(218, 177, 159); */
   border-radius: 40px;
   color: rgb(204, 66, 66);
@@ -572,17 +581,29 @@ input {
   }
 }
 
+
+/* why choose us?? */
+
+
+
 .imageFeature {
   display: flex;
   align-items: center;
   justify-content: center;
+  width : 50%;
   /* background-color: black; */
+}
+
+.imageFeature img{
+  margin-top : 40px;
+  width : 500px;
+  height : 500px;
 }
 
 .containerFeatures {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  min-height: 100vh;
+  min-height: 60vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -604,7 +625,9 @@ input {
 }
 
 .timeline ul li {
-  padding: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   background-color: #1e1f22;
   color: white;
   border-radius: 10px;
@@ -616,9 +639,9 @@ input {
 }
 
 .timeline-content h3{
-  font-size:20px;
+  font-size:18px;
   font-weight:500;
-  line-height:30px;
+  line-height:40px;
 }
 .timeline::before{
   content: "";
@@ -631,7 +654,7 @@ input {
 
 .timeline ul li{
   width: 51%;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
   position: relative;
 
 }
@@ -670,6 +693,11 @@ input {
 
 
 @media only screen and (max-width:950px){
+  .imageFeature img{
+    margin-top : 10px;
+    width : 300px;
+    height : 300px;
+  }
   .timeline::before{
     content: "";
     position: absolute;
@@ -684,9 +712,12 @@ input {
   }
 
   .timeline ul li{
-    width: 51%;
+    width: 100%;
     margin-bottom: 50px;
     position: relative;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 
   }
 
@@ -734,8 +765,8 @@ input {
 
 .why h1{
   color: maroon;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 40px;
+  font-family:Arial ;
+  font-size: 30px;
 }
 
 .containerA .contentImage img{
