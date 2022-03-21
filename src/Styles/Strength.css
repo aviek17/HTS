@@ -1,0 +1,168 @@
+.containerStrength {
+  max-height: auto;
+  background: linear-gradient(to right, lightsteelblue, rgb(97, 233, 215));
+  margin: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: 2px solid black;
+  padding: 0;
+}
+
+.containerStrength .designStrength {
+  margin: 20px;
+  margin-top: 40px;
+  margin-left: 10%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerStrength .contentStrength {
+  margin: 20px;
+  margin-left: 20%;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerStrength .designStrength h2 {
+  border-bottom: 2px solid maroon;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 40px;
+  color: maroon;
+  letter-spacing: 1px;
+}
+
+.containerStrength .contentStrength p {
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 70px;
+  font-weight: 600;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
+  line-height: 2rem;
+}
+.containerStrength .contentStrength p strong {
+  opacity: 0;
+}
+.containerStrength .contentStrength br {
+  margin-top: 20px;
+}
+
+.containerStrength:hover {
+  background-color: black;
+  border: 4px solid rgb(0, 79, 153);
+  border-radius: 30px;
+}
+
+.containerStrength:hover .designStrength h2 {
+  color: rgb(46, 46, 46);
+}
+.containerStrength:hover .contentStrength p {
+  color: rgb(117, 73, 134);
+}
+
+.containerLists {
+  margin: 20px;
+}
+
+.img-wrapA img {
+  height: 500px;
+  width: 600px;
+  margin-top: 30px;
+  margin-right: 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.containerAboutLists .contentLists p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.containerAboutLists .contentLists p span {
+  color: red;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.designStrengthFacility {
+  margin: 20px;
+  margin-top: 40px;
+  margin-left: 10%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 600;
+  font-size: 40px;
+  color: maroon;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 700px) {
+  .containerAboutLists .contentLists p {
+    margin-left: 40px;
+  }
+}
+.researchDesign {
+  background: linear-gradient(to right, rgb(216, 135, 189), rgb(3, 197, 197));
+  max-height: auto;
+  margin: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: 3px solid rgb(48, 0, 110);
+  padding: 0;
+  display: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.researchDesign .researchTitle {
+  margin: 20px;
+  margin-top: 20px;
+  margin-left: 10%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.researchDesign .researchTitle h2 {
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 40px;
+  color: rgb(27, 26, 26);
+  letter-spacing: 1px;
+  border-bottom: 4px solid rgb(7, 7, 7);
+  border-radius: 10px;
+}
+
+.researchDesign .researchContent {
+  border-bottom: 4px dashed rgb(2, 2, 2);
+  margin: 20px;
+  margin-left: 5%;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.researchDesign .researchContent p {
+  text-align: justify;
+  margin: 10px;
+  font-size: 20px;
+  line-height: 2rem;
+  font-weight: 600;
+}
+
+.researchDesign:hover {
+  background: linear-gradient(to left, skyblue, rgb(0, 132, 193));
+}

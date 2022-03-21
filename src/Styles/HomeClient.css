@@ -1,0 +1,109 @@
+.containerC {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  flex-wrap: wrap;
+  z-index: 1;
+  /* background-color : rgb(212, 203, 203); */
+}
+
+.containerC .cardC {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+  box-shadow: 50px 50px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.2);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid rgba(255, 255, 255, 0.5);
+  border-left: 2px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+  background: rgb(212, 212, 221);
+}
+
+.containerC .cardC img {
+  padding: 10px;
+  height: 150px;
+  width: 150px;
+  margin: 40px;
+  border-radius: 20%;
+}
+
+@media screen and (max-width: 560px) {
+  .containerC {
+    width: 560px;
+  }
+  .cardC {
+    margin-left: 300px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .containerC {
+    width: 1000px;
+  }
+}
+
+.buttonClient {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+
+.clientTitle {
+  margin: 30px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 500;
+  color: rgb(105, 34, 34);
+  font-family : Arial, Helvetica, sans-serif;
+}
+
+.buttonClient button {
+  
+  padding: 8px 25px;
+  /* background-color: rgb(218, 177, 159); */
+  border-radius: 40px;
+  color: rgb(204, 66, 66);
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  border: 1px solid red;
+}
+.buttonClient button a{
+  text-decoration: none;
+  color: rgb(22, 19, 19);
+}
+
+.buttonClient button:hover{
+  text-decoration: none;
+  padding: 8px 25px;
+  background-color: rgb(20, 11, 7);
+  border-radius: 40px;
+  color: rgb(243, 241, 241);
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  border: 1px solid black;
+}
+
+.buttonClient button:hover a{
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .containerC  {
+    width: 600px;
+    background: black ;
+  }
+  .containerC .cardC{
+    margin-left: 140px;
+    background-color:white;
+  }
+}

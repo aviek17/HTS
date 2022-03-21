@@ -1,0 +1,466 @@
+.img-wrap {
+  width: 100%;
+}
+
+.img-wrap img {
+  width: 100%;
+  padding: 10px;
+  border-radius: 30%;
+  box-shadow: 0 0 10px #9999;
+  border: 2px solid rgb(5, 5, 5);
+}
+
+#aboutUs {
+  height: 80vh;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#aboutUs .aboutTwoTitle {
+  margin: 30px;
+  font-weight: bold;
+}
+#aboutUs .aboutTwoTitle span {
+  color: red;
+}
+
+#aboutUs .containerAboutTwo p {
+  text-align: justify;
+  font-size: 18px;
+}
+
+#aboutUs .containerAboutTwo p strong {
+  color: red;
+}
+
+@media (max-width: 760px) {
+  #aboutUs {
+    height: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+}
+
+.designHorizontal {
+  margin: 0;
+  /* max-width : 1080px; */
+  background-image: url("../Images//bgImg.webp");
+}
+
+.horizontal-timeline {
+  color: lightskyblue;
+  font-weight: 700;
+  /* margin-top: 125px; */
+  padding-top: 85px;
+  text-align: center;
+  letter-spacing: 4px;
+  line-height: 23px;
+}
+.horizontal-timeline span {
+  color: lightskyblue;
+}
+
+.process-wrapper {
+  margin: auto;
+  max-width: 1080px;
+}
+
+#progress-bar-container {
+  position: relative;
+  width: 90%;
+  margin: auto;
+  height: 100px;
+  margin-top: 59px;
+}
+
+#progress-bar-container ul {
+  padding: 0;
+  margin: 0;
+  margin-left: 70px;
+  padding-top: 15px;
+  z-index: 9999;
+  position: absolute;
+  width: 100%;
+  margin-top: -40px;
+}
+
+#progress-bar-container li:before {
+  content: "";
+  display: block;
+  margin: auto;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #aaa;
+  transition: all ease 0.3s;
+}
+
+#progress-bar-container li:before,
+#progress-bar-container li:hover:before {
+  background: lightskyblue;
+}
+
+#progress-bar-container li {
+  list-style: none;
+  float: left;
+  width: 20%;
+  text-align: center;
+  color: #aaa;
+  text-transform: uppercase;
+  font-size: 11px;
+  cursor: pointer;
+  font-weight: 700;
+  transition: all ease 0.2s;
+  vertical-align: bottom;
+  height: 59px;
+  position: relative;
+}
+
+#progress-bar-container li .step-inner {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  font-size: 14px;
+}
+
+#progress-bar-container li,
+#progress-bar-container li:hover {
+  color: lightskyblue;
+}
+
+#progress-bar-container li:after {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 5px;
+  background: #777;
+  margin: auto;
+  margin-top: 70px;
+  border: 7px solid white;
+  border-radius: 50%;
+  margin-top: 40px;
+  box-shadow: 0 2px 13px -1px rgba(0, 0, 0, 0.3);
+  transition: all ease 0.2s;
+}
+
+#progress-bar-container li:hover:after {
+  background: lightskyblue;
+}
+
+#progress-bar-container li:active:after {
+  background: lightskyblue;
+}
+
+#progress-bar-container #line {
+  width: 61%;
+  margin: auto;
+  background: #eee;
+  height: 5px;
+  position: absolute;
+  left: 17%;
+  top: 50px;
+  z-index: 1;
+  border-radius: 50px;
+  transition: all ease 0.9s;
+}
+
+#progress-bar-container #line #line-process {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: lightskyblue;
+  background: linear-gradient(to right, lightskyblue 0%, lightskyblue 100%);
+  position: absolute;
+  z-index: 2;
+  border-radius: 50px;
+  transition: all ease 0.9s;
+}
+
+#progress-content-section {
+  width: 90%;
+  margin: auto;
+  /* background: #030303; */
+  border-radius: 4px;
+  margin-bottom: 40px;
+}
+
+#progress-content-section .section-content {
+  padding: 30px 40px;
+  text-align: center;
+}
+#progress-content-section .section-content p {
+  text-align: justify;
+  font-size: 25px;
+}
+#progress-content-section .section-content {
+  /* display: none; */
+  animation: FadeInUp 700ms ease 1;
+  animation-fill-mode: forwards;
+  transform: translateY(15px);
+  opacity: 0;
+}
+
+@keyframes FadeInUp {
+  0% {
+    transform: translateY(15px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+#progress-content-section .section-content p {
+  font-size: 18px;
+  line-height: 1.8em;
+  color: lightskyblue;
+}
+#progress-content-section .section-content h3 {
+  color: lightskyblue;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.section-content p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.section-content p strong {
+  font-weight: 800;
+  font-size: 40px;
+  margin: 10px;
+  /* color: yellow; */
+}
+
+@media (max-width: 768px) {
+  #progress-bar-container #line {
+    top: 70px;
+    left: 110px;
+  }
+  #progress-bar-container li .step-inner {
+    top: 40px;
+  }
+  #progress-bar-container li:after {
+    margin-top: 60px;
+  }
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(250, 245, 245);
+  overflow: hidden;
+  padding: 100px 20px;
+  box-sizing: border-box;
+}
+
+.containerProfile {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.containerProfile .cardProfile {
+  position: relative;
+  width: 300px;
+  height: 500px;
+  margin: 20px 40px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: rgba(255,255,255,0.05); */
+  box-shadow: 100px 100px 100px rgba(0, 0, 0, 0.6);
+  border: 5px solid rgb(26, 24, 24);
+  border-radius: 20px;
+  /* overflow: hidden; */
+}
+
+.containerProfile .cardProfile .imgProfile {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  transition: 0.5s ease;
+}
+
+.containerProfile .cardProfile .imgProfile img {
+  max-width: 100%;
+  width: 250px;
+  height: 350px;
+  border-radius: 20px;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  transition: 0.5s ease-in-out;
+}
+
+.containerProfile .cardProfile:hover .imgProfile {
+  transform: translateY(-100px);
+  cursor: pointer;
+}
+
+.containerProfile .cardProfile .imgProfile h2 {
+  color: white;
+  display: none;
+  margin: 10px;
+}
+
+.containerProfile .cardProfile .imgProfile p {
+  visibility: hidden;
+}
+
+.containerProfile .cardProfile:hover .imgProfile img {
+  transform: translate(0, -10px);
+  left: 20px;
+}
+
+.containerProfile .cardProfile:hover .imgProfile h2 {
+  visibility: visible;
+  display: block;
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.containerProfile .cardProfile:hover .imgProfile p {
+  visibility: visible;
+  display: block;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: white;
+  margin-left: 20px;
+}
+
+.containerProfile .cardProfile .imgProfile .social-icons li a {
+  display: none;
+}
+
+.containerProfile .cardProfile:hover .imgProfile .social-icons li a {
+  list-style-type: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  /* margin-left: 10px; */
+  left: 20px;
+  margin-right: 20px;
+  color: white;
+  /* border: 1px solid rgb(234, 234, 238); */
+  border-radius: 50px;
+}
+
+.teamTitle {
+  margin-top: 70px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.teamTitle h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+.teamTitle h1 span {
+  color: rgb(204, 60, 16);
+}
+
+.teamButton {
+  display: inline-block;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .containerProfile .cardProfile {
+    margin-bottom: 100px;
+    /* overflow: hidden; */
+  }
+}
+
+.teamTitle button {
+  margin-top: 20px;
+  height: 50px;
+  width: 120px;
+  border-radius: 10px;
+  border: 3px solid black;
+  background: rgb(13, 148, 182);
+}
+
+.teamTitle button a {
+  color: rgb(14, 13, 13);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+.teamTitle button:hover {
+  width: 140px;
+  background: rgba(0, 0, 0, 0.781);
+}
+.teamTitle button:hover a {
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.teamTitle p {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20%;
+  width: 60%;
+  font-size: 20px;
+}
+
+.teamTitle hr {
+  border: 2px dashed black;
+}
+
+.imageDetailsViews img {
+  margin-top: 90px;
+}
+
+.divViews p {
+  font-size: 20px !important;
+  color : white;
+}
+
+.imageDetailsMission img {
+  margin-top: 10px;
+}
+.imageDetailsMission1 img {
+  margin-top: 10px;
+  height: 400px;
+}
+
+.imageDetailsViewsEHS img {
+  margin-top: 40px;
+  height: 500px;
+}
+
+.viewsTitle{
+  color: white;
+}
+
+.teamTitlePara p{
+  text-align: justify;
+}

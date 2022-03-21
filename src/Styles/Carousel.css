@@ -1,0 +1,73 @@
+/* #carouselExampleCaptions{
+    background-color : black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#carouselExampleCaptions .carousel-inner{
+    margin: 10px;
+    padding: 0;
+}
+
+#carouselExampleCaptions .carousel-inner .item1 img{
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin: 50px;
+    margin-left: 150px;
+    border-radius: 100px;
+}
+
+
+#carouselExampleCaptions .carousel-inner .item2 img {
+    width: 400px;
+    height: 400px;
+    float: right;
+    margin: 50px;
+    margin-right: 150px;
+    border-radius: 100px;
+}
+
+#carouselExampleCaptions .carousel-inner .item3 img{
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin: 50px;
+    margin-left: 150px;
+    border-radius: 100px;
+}
+
+#carouselExampleCaptions .carousel-inner .item1Content h5{
+    float: right;
+    top: 10%;
+    margin-top: 30px;
+    
+    margin-bottom: 30px;
+    color: orangered;
+    margin-right: 100px;
+}
+
+#carouselExampleCaptions .carousel-inner .item1Content p{
+    float: right;
+    
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: justify;
+
+}
+#carouselExampleCaptions .carousel-inner .item1Content .btnC1{
+    margin-right : 220px
+}
+
+@media screen and (max-width:768px){
+    #carouselExampleCaptions{
+        width: 600px;
+    }
+
+    #carouselExampleCaptions .carousel-inner .item1Content p{
+        display: flex;
+    }
+
+} */
+

@@ -1,0 +1,108 @@
+.approvalDesign {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.cardApproval {
+  display: grid;
+  width: 600px;
+  height: 450px;
+
+  border-radius: 18px;
+  background-color: #fff;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  text-align: justify;
+  margin-right: 10px;
+}
+
+.approvalText {
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 20px;
+}
+.circle {
+  margin: 20px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 2px solid black;
+  background: lightsteelblue;
+}
+.approvalText p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.approvalText p span {
+  color: red;
+}
+
+.titleApproval h2 {
+  margin: 40px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.cardApprovals {
+  display: grid;
+  width: 600px;
+  height: 470px;
+
+  border-radius: 18px;
+  background-color: #fff;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  text-align: justify;
+  margin-right: 10px;
+}
+.cardApproval1 {
+  display: grid;
+  width: 600px;
+  height: 400px;
+
+  border-radius: 18px;
+  background-color: #fff;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  text-align: justify;
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .approvalDesign {
+    display: table;
+  }
+  .cardApproval {
+    margin-left: 20px;
+    display: flex;
+    width: 450px;
+    height: 600px;
+  }
+  .cardApprovals {
+    margin-left: 20px;
+    display: flex;
+    width: 450px;
+    height: 600px;
+  }
+  .cardApproval1 {
+    margin-left: 20px;
+    display: flex;
+    width: 450px;
+    /* height: 600px; */
+  }
+
+  .circle {
+    margin-left: 50%;
+  }
+}
+
+.cardApproval1:hover {
+  background: lightsteelblue;
+}
+.cardApprovals:hover {
+  background: lightsteelblue;
+}
+.cardApproval:hover {
+  background: lightsteelblue;
+}

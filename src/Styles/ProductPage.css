@@ -1,0 +1,165 @@
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(250, 245, 245);
+    overflow: hidden;
+    padding: 100px 20px;
+    box-sizing: border-box;
+  }
+  
+  .containerProfile {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .containerProfile .cardProfiles {
+    position: relative;
+    width: 330px;
+    height: 600px;
+    margin: 20px 80px;
+    margin-bottom: 100px;
+    background-color: rgb(250, 249, 249);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: rgba(255,255,255,0.05); */
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.6);
+    border: 5px solid rgb(26, 24, 24);
+    border-radius: 20px;
+    /* overflow: hidden; */
+  }
+  
+  .containerProfile .cardProfiles .imgProfiles {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    transition: 0.5s ease;
+  }
+  
+  .containerProfile .cardProfiles .imgProfiles img {
+    max-width: 100%;
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    transition: 0.5s ease-in-out;
+  }
+  
+  .containerProfile .cardProfiles:hover .imgProfiles {
+    transform: translateY(-100px);
+    cursor: pointer;
+  }
+  
+  .containerProfile .cardProfiles .imgProfiles h2 {
+    color: black;
+    /* display: none; */
+    margin: 10px;
+    font-size: 20px;
+  }
+  
+  .containerProfile .cardProfiles .imgProfiles p {
+    visibility: hidden;
+  }
+  
+  .containerProfile .cardProfiles:hover .imgProfiles img {
+    transform: translate(0, -10px);
+    left: 20px;
+  }
+
+  .containerProfile .cardProfiles .imgProfiles button {
+      opacity: 0;
+  }
+  
+  .containerProfile .cardProfiles:hover .imgProfiles  .navTag{
+      opacity: 1;
+      text-decoration: none;
+      height: 30px;
+      width: 120px;
+      border: 1px solid black;
+      border-radius: 10px;
+      font-size: 20px;
+      margin-bottom: 20px;
+  } 
+
+  .containerProfile .cardProfiles:hover .imgProfiles h2 {
+    visibility: visible;
+    display: block;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-size: 25px;
+    font-weight: 600;
+    /* letter-spacing: 2px; */
+  }
+  
+  .containerProfile .cardProfiles:hover .imgProfiles p {
+    visibility: visible;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-top: 3px solid lightgray;
+    
+    border-bottom: 3px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    text-align:justify;
+    /* letter-spacing: 2px; */
+    color: rgb(0, 0, 0);
+    margin-right: 13px;
+    margin-left: 20px;
+  }
+  
+  .containerProfile .cardProfiles .imgProfiles .social-icons li a {
+    display: none;
+  }
+  
+  .containerProfile .cardProfiles:hover .imgProfiles .social-icons li a {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    /* margin-left: 10px; */
+    left: 20px;
+    margin-right: 20px;
+    color: white;
+    border: 3px solid rgb(11, 33, 226);
+    border-radius: 50px;
+  }
+  
+  .teamTitle {
+    margin-top: 70px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .teamTitle h1 {
+    font-size: 40px;
+    font-weight: 500;
+  }
+  .teamTitle h1 span {
+    color: rgb(204, 60, 16);
+  }
+  
+  .teamButton {
+    display: inline-block;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .containerProfile .cardProfiles {
+      margin-bottom: 100px;
+      /* overflow: hidden; */
+    }
+  }
