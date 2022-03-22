@@ -133,6 +133,8 @@ footer hr {
 
 .copyRight {
   text-align: center;
+  text-decoration: none;
+  color: white;
 }
 
 .underline {
@@ -179,7 +181,7 @@ footer hr {
     flex-basis: 100%;
   }
   .logo {
-    margin-left: 150px;
+    margin-left:80px;
     height: 80px;
     width: 100px;
   }
@@ -189,7 +191,11 @@ footer hr {
   }
   .social-icons img {
     position: relative;
-    left: -40px;
+    left: -10px;
+  }
+  .copyRight{
+    height: auto;
+    font-size: 10px;
   }
 }
 

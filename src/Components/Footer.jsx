@@ -71,7 +71,7 @@ const Footer = () => {
           </div> */}
         </div>
         <hr />
-        <p className="copyRight">Designed & Developed by eSparse Matrix Solutions Pvt. Ltd. All rights reserved.</p>
+        <NavLink to={{pathname : "https://sparsematrix.co.in/"}} target="_blank"><p className="copyRight">Designed & Developed by eSparse Matrix Solutions Pvt. Ltd. All rights reserved.</p></NavLink>
       </footer>
     </>
   )

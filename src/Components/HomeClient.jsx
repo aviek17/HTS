@@ -5,7 +5,7 @@ import l3 from "../Logo/l3.jpg"
 import l4 from "../Logo/l4.png"
 import l5 from "../Logo/l5.jpg"
 
-import l7 from "../Logo/l7.jpg"
+import l7 from "../Logo/l7.png"
 
 import l9 from "../Logo/l9.png"
 import l10 from "../Logo/l10.jpg"
