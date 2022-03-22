@@ -48,6 +48,8 @@ const ProductPage = () => {
                     <div className="cardProfiles">
                         <div className="imgProfiles">
                             <img src={vcb} alt="" />
+
+
                             <h2>VCB Breaker Panel </h2>
                             <p>VCB breaker panel up to 33KV (indoor /outdoor type)
 
@@ -297,8 +299,8 @@ const ProductPage = () => {
                     <div className="cardProfiles">
                         <div className="imgProfiles">
                             <img src={switchfuseunit} alt="" />
-                            <h2>switch fuse unit (SFU) </h2>
-                            <p>Switch fuse unit (SFU) up to 33KV (indoor /outdoor type)
+                            <h2>switch Fuse Unit (SFU) </h2>
+                            <p>Switch Fuse Unit (SFU) up to 33KV (indoor /outdoor type)
 
                                 this unit has a load break switch & fuse arrangement </p>
                             <Link  to="/products/switchFuse"><button className="navTag">Know More</button></Link>

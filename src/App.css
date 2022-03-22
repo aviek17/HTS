@@ -626,7 +626,7 @@ input {
 
 .timeline ul li {
   padding-top: 20px;
-  padding-left: 20px;
+  padding-left: 10px;
   padding-right: 20px;
   background-color: #1e1f22;
   color: white;
@@ -640,7 +640,7 @@ input {
 
 .timeline-content h3{
   font-size:18px;
-  font-weight:500;
+  font-weight:400;
   line-height:40px;
 }
 .timeline::before{
@@ -653,7 +653,7 @@ input {
 }
 
 .timeline ul li{
-  width: 51%;
+  width: 55%;
   /* margin-bottom: 50px; */
   position: relative;
 

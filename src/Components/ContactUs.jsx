@@ -1,7 +1,8 @@
 import React from 'react'
 import "../Styles/ContactUs.css"
 import Carousel from "../Components/Carousell"
-
+import map from "../Images/map.PNG"
+import {Link} from 'react-router-dom'
 const ContactUs = () => {
     return (
         <>
@@ -23,6 +24,7 @@ const ContactUs = () => {
                                 <p>Survey No. 77/5, Dangat Estate, NDA Road, <br />
                                     A/P - Shivane, Tal. Haveli Dist., Pune - Maharashtra, INDIA , <br />
                                     411023,</p>
+                                <p><Link to={{pathname:"https://goo.gl/maps/21a6GJxw3V2dnZPW8"}} target="_blank"><img src={map} alt="" height="150px" width="280px" /></Link></p>
                             </div>
                         </div>
                         <div className="boxContact">
@@ -43,6 +45,7 @@ const ContactUs = () => {
                                 <p><span>marketing@htswitchgears.com</span></p>
                             </div>
                         </div>
+
                     </div>
 
                     <div className="contactForm">
@@ -52,7 +55,7 @@ const ContactUs = () => {
                                 <span>Full Name</span>
                                 <input type="text" name="Name" required class="form-control" placeholder="Full Name" />
                                 <span>Phone</span>
-                                <input type="number" name="Phone" required class="form-control" placeholder="Your Phone"/>
+                                <input type="number" name="Phone" required class="form-control" placeholder="Your Phone" />
                             </div>
                             <div className="inputBox">
                                 <span>Email</span>
@@ -60,7 +63,7 @@ const ContactUs = () => {
                             </div>
                             <div className="inputBox">
                                 <span>Address</span>
-                                <input type="text" name="Address" required class="form-control" placeholder="Your Address"/>
+                                <input type="text" name="Address" required class="form-control" placeholder="Your Address" />
                             </div>
                             <div className="inputBox">
                                 <span>Message</span>
@@ -75,6 +78,8 @@ const ContactUs = () => {
                     </div>
                 </div>
             </section>
+
+           
         </>
     )
 }

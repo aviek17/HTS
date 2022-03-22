@@ -70,6 +70,8 @@ import a67 from "../Logo/l18.png"
 import a68 from "../Logo/l19.png"
 import a69 from "../Logo/l20.png"
 import "../Styles/Clients.css"
+
+
 const Clients = () => {
   return (
     <>
@@ -77,79 +79,211 @@ const Clients = () => {
 
       <div className="teamTitle teamTitleHeading" data-aos="flip-down"><h1>Our <span>Clients</span> </h1></div>
 
-      <div className="picture-grid" data-aos="fade-right">
-        <div className="grid-box"><img src={a1} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a2} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a3} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a4} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a5} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a6} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a7} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a8} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a9} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a10} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a11} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a12} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a13} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a14} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a15} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a16} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a17} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a18} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a19} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a20} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a21} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a22} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a23} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a24} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a25} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a26} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a27} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a28} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a29} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a30} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a31} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a32} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a3} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a33} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a34} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a35} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a36} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a37} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a38} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a39} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a40} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a41} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a42} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a43} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a44} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a18} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a45} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a46} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a47} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a48} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a49} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a50} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a51} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a21} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a52} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a54} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a55} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a56} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a57} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a58} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a3} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a60} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a61} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a62} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a63} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a17} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a64} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a65} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a66} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a67} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a68} alt="" height="150px" width="150px" /></div>
-        <div className="grid-box"><img src={a69} alt="" height="150px" width="150px" /></div>
+      <div className="galleryDesign">
+        <div className="responsive">
+          <div className="gallery"><img src={a1} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a2} alt="" height="100px" width="100px" /></div>
+        </div>
+        
+        <div className="responsive">
+          <div className="gallery"><img src={a4} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a5} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a6} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a7} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a8} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a9} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a10} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a11} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a12} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a13} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a14} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a15} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a16} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a17} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a18} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a19} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a20} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a21} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a3} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a22} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a23} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a24} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a25} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a26} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a27} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a28} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a29} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a30} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a31} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a32} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a33} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a34} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a35} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a36} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a37} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a38} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a39} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a40} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a41} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a42} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a43} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a44} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a45} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a46} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a47} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a48} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a49} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a50} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a51} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a52} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a53} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a54} alt="" height="100px" width="100px" /></div>
+        </div>
+        
+        <div className="responsive">
+          <div className="gallery"><img src={a56} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a57} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a58} alt="" height="100px" width="100px" /></div>
+        </div>
+        
+        <div className="responsive">
+          <div className="gallery"><img src={a60} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a61} alt="" height="100px" width="100px" /></div>
+        </div>
+        {/* <div className="responsive">
+          <div className="gallery"><img src={a62} alt="" height="100px" width="100px" /></div>
+        </div> */}
+        <div className="responsive">
+          <div className="gallery"><img src={a63} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a64} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a65} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a66} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a67} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a68} alt="" height="100px" width="100px" /></div>
+        </div>
+        <div className="responsive">
+          <div className="gallery"><img src={a69} alt="" height="100px" width="100px" /></div>
+        </div>
       </div>
 
 
