@@ -37,7 +37,7 @@ const Footer = () => {
           </div>
           <div className="col secondCol">
             <h3>Office <div className="underline"><span></span></div></h3>
-            <p>HTSwitchgears</p>
+            <p>HT Switchgears</p>
             <p>Survey No. 77/5, Dangat Estate, N.D.A.Road</p>
             <p>At Post-Shivane, Tal-Haveli</p>
             <p>Pune, Maharashtra, India. - 411023</p>

@@ -25,8 +25,8 @@ const AboutUs = () => {
                 <div className="containerAboutTwo">
                     <div className="row">
                         <div className="col-sm-7" data-aos="zoom-out">
-                            <h3 className="text-center aboutTwoTitle">WELCOME TO <span className="HTSwitch">HTSWITCHGEARS</span></h3>
-                            <p>Established in 2006, <strong>HTSwitchgears Pune (India)</strong> is a multi-product, vertically integrated manufacturer. Specialized in entire range of Medium Voltage, Low voltage Switchgears & Services.
+                            <h3 className="text-center aboutTwoTitle">WELCOME TO <span className="HTSwitch">HT SWITCHGEARS</span></h3>
+                            <p>Established in 2006, <strong>HT Switchgears Pune (India)</strong> is a multi-product, vertically integrated manufacturer. Specialized in entire range of Medium Voltage, Low voltage Switchgears & Services.
                                 Company is motivated & promoted by first generation entrepreneurs.
                                 A group of technocrats complimented by a dedicated team and powered by technical up gradation-integration-innovation-transparency and integrity at each stage of our growth.</p>
                             <p>State-of-the-Art designing, manufacturing & testing facilities along with thrust on quality and technology are giving HTS national and international recognition in the form of Certifications by leading Government /Semi Government/ Private Organizations across India and International customers.</p>

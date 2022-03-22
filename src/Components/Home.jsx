@@ -13,7 +13,7 @@ const Home = () => {
 
             <div className="section">
                 <div className="containerA">
-                    <div className="row title" data-aos="fade-down"><h1>ABOUT HTSWITCHGEARS</h1></div>
+                    <div className="row title" data-aos="fade-down"><h1>ABOUT HT SWITCHGEARS</h1></div>
                     <div className="row">
                         <div className="image-section mt-5" data-aos="fade-right">
                             <img src={about} alt="" srcSet="" />
@@ -22,9 +22,9 @@ const Home = () => {
                             <div className="article" data-aos="fade-left">
                                 
                                 <p>
-                                    Established in 2006, HTSwitchgears Pune (India) is a multi-product, vertically integrated manufacturer. Specialized in entire range of Medium Voltage, Low voltage Switchgears & Services. Company is motivated & promoted by first generation entrepreneurs. A group of technocrats complimented by a dedicated team and powered by technical up gradation-integration-innovation-transparency and integrity at each stage of our growth.
+                                    Established in 2006, HT Switchgears Pune (India) is a multi-product, vertically integrated manufacturer. Specialized in entire range of Medium Voltage, Low voltage Switchgears & Services. Company is motivated & promoted by first generation entrepreneurs. A group of technocrats complimented by a dedicated team and powered by technical up gradation-integration-innovation-transparency and integrity at each stage of our growth.
                                 
-                                    <strong>H.T.SWITCHGEARS</strong> earnestly & continuously strives to achieve excellence not only in its operations but also in the foray of Corporate Citizenship. 
+                                    <strong>H.T. SWITCHGEARS</strong> earnestly & continuously strives to achieve excellence not only in its operations but also in the foray of Corporate Citizenship. 
                                 </p>
                                 <div className="button">
                                     <Link to="/about">Know More</Link>
