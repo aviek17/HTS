@@ -194,11 +194,11 @@ footer hr {
 @media (max-width: 700px) {
   footer {
     bottom: unset;
-    width: auto;
+    /* width: auto; */
   }
-  footer .row{
+  /* footer .row{
     width: 90%!important;
-  }
+  } */
   .col {
     flex-basis: 100%;
   }
