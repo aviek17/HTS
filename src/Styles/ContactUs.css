@@ -61,7 +61,7 @@
 .contactContainer .contactInfo .boxContact .textContact{
     display: flex;
     margin-left: 10px;
-    font-size: 18px;
+    font-size: 15px;
     flex-direction: column;
     font-weight: 300;
 }
@@ -72,11 +72,13 @@
 }
 
 .contactContainer .contactInfo .boxContact .textContact p{
+    font-size: 18px;
     font-weight: 400;
 }
 .contactContainer .contactInfo .boxContact .textContact p span{
     color: red;
 }
+
 
 
 .contactForm{
@@ -123,7 +125,9 @@
     .contact{
         padding: 50px;
     }
-
+    .contactContainer .contactInfo .boxContact .textContact p{
+        font-size: 13px;
+    }
     .contactContainer{
         flex-direction: column;
     }
@@ -131,12 +135,21 @@
         width: 100%;
     }
     .contactInfo{
+        position : relative;
         margin: 0;
-        width : 700px;
+        width : 100%;
+        left: -30px;
+    }
+    .contactContainer .contactInfo .boxContact {
+        position: relative;
+        left: -30px;
     }
     .contactContainer .contactInfo .boxContact .textContact{
-        display: flex;
+       
         width: 100%;
+    }
+    .contactContainer .contactInfo .boxContact .textContact p{
+        display: table;
     }
     
 }

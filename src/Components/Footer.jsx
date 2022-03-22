@@ -1,11 +1,7 @@
 import React from 'react'
 import logo from "../Images/Logo_icon.PNG"
 import "../Styles/Footer.css"
-import fb from "../Images/fbIcon.jpg"
-import twitter from "../Images/twitterIcon.jpg"
-import linkedIn from "../Images/linkedIN.jpg"
-import insta from "../Images/insta.png"
-import map from "../Images/map.PNG"
+
 import { NavLink } from 'react-router-dom'
 
 const Footer = () => {
@@ -32,7 +28,7 @@ const Footer = () => {
               <li><NavLink to="/clients">Client</NavLink></li>
             </ul>
             <h3 className="followUs">Follow Us <div className="underline"><span></span></div> </h3>
-            <ul className="social-icons">
+            <ul className="social-icons1">
               <li><NavLink to=""><box-icon name='facebook-circle' type='logo' color='#2e64a4' ></box-icon></NavLink></li>
               <li><NavLink to=""><box-icon name='twitter' type='logo' color='#3baadd' ></box-icon></NavLink></li>
               <li><NavLink to=""><box-icon name='linkedin-square' type='logo' color='#4394dd' ></box-icon></NavLink></li>
@@ -48,30 +44,11 @@ const Footer = () => {
             <p className="email-id"> <box-icon className="Envelope" name='envelope' color='#ffffff' ></box-icon> marketing@htswitchgears.com</p>
             <p><box-icon name='phone-call' color='#ffffff' ></box-icon>   (+91) 20 652955/6/7/8</p>
           </div>
-          {/* <div className="col">
-            <h3>Follow Us <div className="underline"><span></span></div> </h3>
-            <ul className="social-icons">
-              <li><NavLink to=""><img src={fb} alt="" height="40px" width="40px" /></NavLink></li>
-              <li><NavLink to=""><img src={twitter} alt="" height="40px" width="40px" /></NavLink></li>
-              <li><NavLink to=""><img src={linkedIn} alt="" height="40px" width="40px" /></NavLink></li>
-              <li><NavLink to=""><img src={insta} alt="" height="40px" width="40px" /></NavLink></li>
-            </ul>
-
-          </div> */}
-          {/* <div className="col">
-            <h3>Location<div className="underline"><span></span></div> </h3>
-            <a href="https://goo.gl/maps/3kgufP89jRA1n4TMA"><img src={map} alt="" width="250px"/></a>
-            <h3 className="followUs">Follow Us <div className="underline"><span></span></div> </h3>
-            <ul className="social-icons">
-              <li><NavLink to=""><img src={fb} alt="" height="40px" width="40px" /></NavLink></li>
-              <li><NavLink to=""><img src={twitter} alt="" height="40px" width="40px" /></NavLink></li>
-              <li><NavLink to=""><img src={linkedIn} alt="" height="40px" width="40px" /></NavLink></li>
-              <li><NavLink to=""><img src={insta} alt="" height="40px" width="40px" /></NavLink></li>
-            </ul>
-          </div> */}
+          
+          
         </div>
         <hr />
-        <NavLink to={{pathname : "https://sparsematrix.co.in/"}} target="_blank"><p className="copyRight">Designed & Developed by eSparse Matrix Solutions Pvt. Ltd. All rights reserved.</p></NavLink>
+        <p className="copyRight"><NavLink to={{pathname : "https://sparsematrix.co.in/"}} target="_blank">Designed & Developed by eSparse Matrix Solutions Pvt. Ltd. All rights reserved.</NavLink></p>
       </footer>
     </>
   )

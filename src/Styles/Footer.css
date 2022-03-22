@@ -99,17 +99,28 @@ footer {
   color: white;
 }
 .social-icons li {
+  
+  list-style-type: none;
+  display: inline-block;
+  
+}
+
+.social-icons1 li {
+  position: relative;
   border: 1px solid rgb(3, 3, 3);
   border-radius: 50%;
   padding: 5px;
   margin: 5px;
+  left: -50px;
   list-style-type: none;
   display: inline-block;
 }
 
-.social-icons li:hover{
+.social-icons1 li:hover{
   background-color:#fff;
 }
+
+
 .followUs {
   margin-left: 0px;
   margin-top: 20px;
@@ -138,11 +149,14 @@ footer hr {
   border-bottom: 4px solid white;
   margin: 20px auto;
 }
-
-.copyRight {
+.copyRight{
   text-align: center;
+}
+.copyRight a{
+ 
   text-decoration: none;
   color: white;
+  height: auto;
 }
 
 .underline {
@@ -180,6 +194,10 @@ footer hr {
 @media (max-width: 700px) {
   footer {
     bottom: unset;
+    width: auto;
+  }
+  footer .row{
+    width: 90%!important;
   }
   .col {
     flex-basis: 100%;

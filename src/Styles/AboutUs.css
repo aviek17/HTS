@@ -511,3 +511,10 @@
 .teamTitlePara p{
   text-align: justify;
 }
+
+@media (max-width: 768px){
+  .teamTitlePara{
+    width: 95%;
+    margin-left: 2.5%;
+  }
+}

@@ -108,8 +108,29 @@
 }
 
 @media (max-width: 700px) {
+  .containerStrength{
+    width: 95%;
+  }
+  .containerStrength .contentStrength p{
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .containerAboutLists .contentLists{
+    width : 90%;
+    margin-left: 5%;
+  }
+  .img-wrapA {
+    width: 90%;
+    
+  }
+  .img-wrapA img{
+    width: 350px;
+    margin-right: 38px;
+    
+  }
   .containerAboutLists .contentLists p {
-    margin-left: 40px;
+    margin-left: 20px;
+    font-size: 15px;
   }
 }
 .researchDesign {

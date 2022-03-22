@@ -1,7 +1,7 @@
 import React from 'react'
 import c1 from "../Product Images/c&r panel.jpg"
 import c2 from "../Product Images/fcma soft.jpg"
-import c3 from "../Product Images/Lt PCC.jpg"
+import c3 from "../Product Images/generator relay.jpg"
 import { Link } from 'react-router-dom'
 
 const Carousell = () => {

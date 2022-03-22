@@ -103,7 +103,8 @@
     background: black ;
   }
   .containerC .cardC{
-    margin-left: 140px;
+    position: relative;
+    margin-left: 110px;
     background-color:white;
   }
 }

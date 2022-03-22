@@ -44,7 +44,7 @@ const ProductPage = () => {
 
             <section className="profile">
 
-                <div className="containerProfile" data-aos="flip-up">
+                <div className="containerProfile" data-aos="zoom-in">
                     <div className="cardProfiles">
                         <div className="imgProfiles">
                             <img src={vcb} alt="" />

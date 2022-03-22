@@ -18,7 +18,7 @@ import { Link } from 'react-router-dom'
 const AboutUs = () => {
     return (
         <>
-          
+
 
             {/* about us */}
             <section id="about1">
@@ -174,10 +174,10 @@ const AboutUs = () => {
                                 Dpt. Elect. Engg. <br />
                                 29 years Experience</p>
                             <ul className="social-icons">
-                                <li><Link to="/management"><box-icon name='facebook-circle' font-size="36px" type='logo' color='#f8f8f8' ></box-icon></Link></li>
-                                <li><Link to="/management"><box-icon name='twitter' type='logo' color='#f8f8f8' ></box-icon></Link></li>
-                                <li><Link to="/management"><box-icon name='instagram' type='logo' color='#f8f8f8' ></box-icon></Link></li>
-                                <li><Link to="/management"><box-icon name='linkedin' type='logo' color='#f8f8f8' ></box-icon></Link></li>
+                                <li><Link to="/management"><box-icon name='facebook-circle' type='logo' color='#2e64a4' ></box-icon></Link></li>
+                                <li><Link to="/management"><box-icon name='twitter' type='logo' color='#3baadd' ></box-icon></Link></li>
+                                <li><Link to="/management"><box-icon name='instagram' type='logo' color='#dd4388' ></box-icon></Link></li>
+                                <li><Link to="/management"><box-icon name='linkedin-square' type='logo' color='#4394dd' ></box-icon></Link></li>
                             </ul>
                         </div>
 
@@ -190,10 +190,10 @@ const AboutUs = () => {
                                 B.E. Electrical <br />
                                 27 years Experience</p>
                             <ul className="social-icons">
-                                <li><Link to="/management"><box-icon name='facebook-circle' font-size="36px" type='logo' color='#f8f8f8' ></box-icon></Link></li>
-                                <li><Link to="/management"><box-icon name='twitter' type='logo' color='#f8f8f8' ></box-icon></Link></li>
-                                <li><Link to="/management"><box-icon name='instagram' type='logo' color='#f8f8f8' ></box-icon></Link></li>
-                                <li><Link to="/management"><box-icon name='linkedin' type='logo' color='#f8f8f8' ></box-icon></Link></li>
+                                <li><Link to="/management"><box-icon name='facebook-circle' type='logo' color='#2e64a4' ></box-icon></Link></li>
+                                <li><Link to="/management"><box-icon name='twitter' type='logo' color='#3baadd' ></box-icon></Link></li>
+                                <li><Link to="/management"><box-icon name='instagram' type='logo' color='#dd4388' ></box-icon></Link></li>
+                                <li><Link to="/management"><box-icon name='linkedin-square' type='logo' color='#4394dd' ></box-icon></Link></li>
                             </ul>
                         </div>
 
@@ -206,10 +206,10 @@ const AboutUs = () => {
                                 B.E. Electrical <br />
                                 28 years Experience</p>
                             <ul className="social-icons">
-                                <li><Link to="/management"><box-icon name='facebook-circle' font-size="36px" type='logo' color='#f8f8f8' ></box-icon></Link></li>
-                                <li><Link to="/management"><box-icon name='twitter' type='logo' color='#f8f8f8' ></box-icon></Link></li>
-                                <li><Link to="/management"><box-icon name='instagram' type='logo' color='#f8f8f8' ></box-icon></Link></li>
-                                <li><Link to="/management"><box-icon name='linkedin' type='logo' color='#f8f8f8' ></box-icon></Link></li>
+                                <li><Link to="/management"><box-icon name='facebook-circle' type='logo' color='#2e64a4' ></box-icon></Link></li>
+                                <li><Link to="/management"><box-icon name='twitter' type='logo' color='#3baadd' ></box-icon></Link></li>
+                                <li><Link to="/management"><box-icon name='instagram' type='logo' color='#dd4388' ></box-icon></Link></li>
+                                <li><Link to="/management"><box-icon name='linkedin-square' type='logo' color='#4394dd' ></box-icon></Link></li>
                             </ul>
                         </div>
 

@@ -10,7 +10,7 @@ const OurManagement = () => {
     return (
         <>
             
-            <div className="teamTitle teamTitlePara" data-aos="flip-down">
+            <div className="teamTitle teamTitlePara" data-aos="zoom-out">
                 <hr />
                 <h1>Our <span>Management</span> </h1>
                 <p>
