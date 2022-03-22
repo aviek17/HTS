@@ -44,12 +44,14 @@ import VaccumContractor from "./Components/Product/Components/VaccumContactor"
 import VCB from "./Components/Product/Components/VCB"
 import Client from "./Components/Clients"
 import ContactUs from "./Components/ContactUs"
+import Carousel from "./Components/Carousell"
 
 const App = () => {
   return (
     <>
       <Router>
         <Navbar />
+        <Carousel/>
         <Switch>
           <Route path="/clients">
             <Client />

@@ -9,7 +9,7 @@ import { Link} from 'react-router-dom'
 const Home = () => {
     return (
         <>
-            <Carousell />
+         
 
             <div className="section">
                 <div className="containerA">

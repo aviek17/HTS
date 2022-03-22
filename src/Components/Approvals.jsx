@@ -8,7 +8,7 @@ const Approvals = () => {
 
     return (
         <>
-            <Carousel />
+       
 
             <div className="titleApproval">
                 <h2>Our Approvals</h2>

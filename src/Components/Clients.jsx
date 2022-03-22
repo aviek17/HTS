@@ -75,7 +75,7 @@ import "../Styles/Clients.css"
 const Clients = () => {
   return (
     <>
-      <Carousel />
+      
 
       <div className="teamTitle teamTitleHeading" data-aos="flip-down"><h1>Our <span>Clients</span> </h1></div>
 

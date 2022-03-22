@@ -38,7 +38,7 @@ import Carousel from "../Components/Carousell"
 const ProductPage = () => {
     return (
         <>
-            <Carousel/>
+            
             <hr/>
             <div className="teamTitle" data-aos="flip-down"><h1>Our <span>Products</span> </h1></div>
 

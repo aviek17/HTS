@@ -9,7 +9,7 @@ import Carousel from "../Components/Carousell"
 const OurManagement = () => {
     return (
         <>
-            <Carousel/>
+            
             <div className="teamTitle teamTitlePara" data-aos="flip-down">
                 <hr />
                 <h1>Our <span>Management</span> </h1>

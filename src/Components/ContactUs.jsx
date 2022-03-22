@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom'
 const ContactUs = () => {
     return (
         <>
-            <Carousel />
+           
 
             <section className="contact">
                 <div className="contactContent">

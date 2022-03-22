@@ -18,7 +18,7 @@ import { Link } from 'react-router-dom'
 const AboutUs = () => {
     return (
         <>
-            <Carousel />
+          
 
             {/* about us */}
             <section id="about1">

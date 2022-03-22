@@ -6,7 +6,7 @@ import strength from "../Images/strength.PNG"
 const Strength = () => {
     return (
         <>
-            <Carousel />
+           
             <div className="containerStrength" >
 
                 <div className="designStrength" data-aos="flip-down">
