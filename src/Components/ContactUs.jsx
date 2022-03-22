@@ -22,9 +22,9 @@ const ContactUs = () => {
                             <div className="textContact">
                                 <h3>Office Location</h3>
                                 <p>Survey No. 77/5, Dangat Estate, NDA Road, <br />
-                                    A/P - Shivane, Tal. Haveli Dist., Pune - Maharashtra, INDIA , <br />
-                                    411023,</p>
-                                <p><Link to={{pathname:"https://goo.gl/maps/21a6GJxw3V2dnZPW8"}} target="_blank"><img src={map} alt="" height="150px" width="280px" /></Link></p>
+                                    A/P - Shivane, Tal. Haveli <br/> Dist. Pune - Maharashtra  <br />INDIA ,
+                                    411023</p>
+                                {/* <p><Link to={{pathname:"https://goo.gl/maps/21a6GJxw3V2dnZPW8"}} target="_blank"><img src={map} alt="" height="150px" width="280px" /></Link></p> */}
                             </div>
                         </div>
                         <div className="boxContact">

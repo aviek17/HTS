@@ -33,10 +33,10 @@ const Footer = () => {
             </ul>
             <h3 className="followUs">Follow Us <div className="underline"><span></span></div> </h3>
             <ul className="social-icons">
-              <li><NavLink to=""><img src={fb} alt="" height="30px" width="30px" /></NavLink></li>
-              <li><NavLink to=""><img src={twitter} alt="" height="30px" width="30px" /></NavLink></li>
-              <li><NavLink to=""><img src={linkedIn} alt="" height="30px" width="30px" /></NavLink></li>
-              <li><NavLink to=""><img src={insta} alt="" height="30px" width="30px" /></NavLink></li>
+              <li><NavLink to=""><box-icon name='facebook-circle' type='logo' color='#2e64a4' ></box-icon></NavLink></li>
+              <li><NavLink to=""><box-icon name='twitter' type='logo' color='#3baadd' ></box-icon></NavLink></li>
+              <li><NavLink to=""><box-icon name='linkedin-square' type='logo' color='#4394dd' ></box-icon></NavLink></li>
+              <li><NavLink to=""><box-icon name='instagram' type='logo' color='#dd4388' ></box-icon></NavLink></li>
             </ul>
           </div>
           <div className="col secondCol">

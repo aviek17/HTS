@@ -24,7 +24,7 @@ const AboutUs = () => {
             <section id="about1">
                 <div className="containerAboutTwo">
                     <div className="row">
-                        <div className="col-sm-7" data-aos="zoom-out-down">
+                        <div className="col-sm-7" data-aos="zoom-out">
                             <h3 className="text-center aboutTwoTitle">WELCOME TO <span className="HTSwitch">HTSWITCHGEARS</span></h3>
                             <p>Established in 2006, <strong>HTSwitchgears Pune (India)</strong> is a multi-product, vertically integrated manufacturer. Specialized in entire range of Medium Voltage, Low voltage Switchgears & Services.
                                 Company is motivated & promoted by first generation entrepreneurs.
