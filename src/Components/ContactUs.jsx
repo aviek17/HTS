@@ -1,10 +1,36 @@
-import React from 'react'
+import React , {useState} from 'react'
 import "../Styles/ContactUs.css"
-import Carousel from "../Components/Carousell"
-import map from "../Images/map.PNG"
-import { Link } from 'react-router-dom'
+
 const ContactUs = () => {
+    const [user, setUser] = useState({
+        name : "",
+        phone : "",
+        email : "",
+        address : "",
+        message : ""
+    })
+
+    let name , value
+    const handleInputs = (event) => {
+        name = event.target.name
+        value = event.target.value
+
+        setUser({ ...user, [name]: value })
+
+    }
+
+    const sendData = (event) => {
+        // event.preventDefault();
+        console.log(user.name)
+        console.log(user.phone)
+        console.log(user.email)
+        console.log(user.address)
+        console.log(user.message)
+
+        // Write code here to send data to backend
+    }
     return (
+        
         <>
 
 
@@ -53,25 +79,25 @@ const ContactUs = () => {
                             <h2>Get In Touch...</h2>
                             <div className="inputBox">
                                 <span>Full Name</span>
-                                <input type="text" name="Name" required class="form-control" placeholder="Full Name" />
+                                <input type="text" name="name" id="name" required class="form-control" placeholder="Full Name"  value={user.name}  onChange={handleInputs} />
                                 <span>Phone</span>
-                                <input type="number" name="Phone" required class="form-control" placeholder="Your Phone" />
+                                <input type="number" name="phone" id="phone" required class="form-control" placeholder="Your Phone" value={user.phone}  onChange={handleInputs}  />
                             </div>
                             <div className="inputBox">
                                 <span>Email</span>
-                                <input type="email" name="Email" required class="form-control" placeholder="Your Email" />
+                                <input type="email" name="email" id="email" required class="form-control" placeholder="Your Email" value={user.email}  onChange={handleInputs}  />
                             </div>
                             <div className="inputBox">
                                 <span>Address</span>
-                                <input type="text" name="Address" required class="form-control" placeholder="Your Address" />
+                                <input type="text" name="address" id="address" required class="form-control" placeholder="Your Address" value={user.address}  onChange={handleInputs}  />
                             </div>
                             <div className="inputBox">
                                 <span>Message</span>
-                                <textArea required class="form-control" placeholder="Enter your message"></textArea>
+                                <textArea required class="form-control" placeholder="Enter your message" name="message" id="message" value={user.message}  onChange={handleInputs} ></textArea>
                             </div>
 
                             <div className="inputBox">
-                                <input type="submit" name="Address" required class="form-control btn btn-primary" value="Send Message" />
+                                <input  name="Address" required class="form-control btn btn-primary" value="Send Message" onClick={sendData}/>
                             </div>
 
                         </form>

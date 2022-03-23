@@ -1,7 +1,8 @@
 import React from 'react'
 import logo from "../Images/Logo_icon.PNG"
 import "../Styles/Footer.css"
-
+import mail from "../Images/envelope-solid-24.png"
+import call from "../Images/phone-regular-24.png"
 import { NavLink } from 'react-router-dom'
 
 const Footer = () => {
@@ -40,9 +41,9 @@ const Footer = () => {
             <p>HT Switchgears</p>
             <p>Survey No. 77/5, Dangat Estate, N.D.A.Road</p>
             <p>At Post-Shivane, Tal-Haveli</p>
-            <p>Pune, Maharashtra, India. - 411023</p>
-            <p className="email-id"> <box-icon className="Envelope" name='envelope' color='#ffffff' ></box-icon> marketing@htswitchgears.com</p>
-            <p><box-icon name='phone-call' color='#ffffff' ></box-icon>   (+91) 20 652955/6/7/8</p>
+            <p>Pune, Maharashtra, <br/> India.- 411023</p>
+            <p className="email-id"> <img src={mail} height ="20px" alt="" /> marketing@htswitchgears.com</p>
+            <p><img src={call} alt="" height ="20px"/> (+91) 20 652955/6/7/8</p>
           </div>
           
           

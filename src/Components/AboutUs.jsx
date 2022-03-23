@@ -30,7 +30,7 @@ const AboutUs = () => {
                                 Company is motivated & promoted by first generation entrepreneurs.
                                 A group of technocrats complimented by a dedicated team and powered by technical up gradation-integration-innovation-transparency and integrity at each stage of our growth.</p>
                             <p>State-of-the-Art designing, manufacturing & testing facilities along with thrust on quality and technology are giving HTS national and international recognition in the form of Certifications by leading Government /Semi Government/ Private Organizations across India and International customers.</p>
-                            <p> <strong>HTSWITCHGEARS</strong> earnestly & continuously strives to achieve excellence not only in its operations but also in the foray of Corporate Citizenship. With deep respect for social values and human ethos we are committed to improve the Quality of life of its employees through Safe work practices and healthy environment.</p>
+                            <p> <strong>HT SWITCHGEARS</strong> earnestly & continuously strives to achieve excellence not only in its operations but also in the foray of Corporate Citizenship. With deep respect for social values and human ethos we are committed to improve the Quality of life of its employees through Safe work practices and healthy environment.</p>
                         </div>
                         <div className="col-sm-5" data-aos="zoom-out-up">
                             <div className="img-wrap">
