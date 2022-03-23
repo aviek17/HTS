@@ -11,7 +11,7 @@ const Footer = () => {
       <footer>
         <div className="row" data-aos="fade-down">
           <div className="col">
-            <img src={logo} className="logo" />
+            <img src={logo} className="logo" alt=""/>
             <p>Established in 2006, HT Switchgears Pune (India) is a multi-product, vertically integrated manufacturer.
               Specialized in entire range of Medium Voltage, Low voltage Switchgears & Services.
               Company is motivated & promoted by first generation entrepreneurs.A group of technocrats complimented by a dedicated team and powered by technical up gradation-integration-innovation-transparency and integrity at each stage of our growth.
@@ -41,7 +41,7 @@ const Footer = () => {
             <p>HT Switchgears</p>
             <p>Survey No. 77/5, Dangat Estate, N.D.A.Road</p>
             <p>At Post-Shivane, Tal-Haveli</p>
-            <p>Pune, Maharashtra, <br/> India.- 411023</p>
+            <p>Pune, Maharashtra, <br/> India - 411023</p>
             <p className="email-id"> <img src={mail} height ="20px" alt="" /> marketing@htswitchgears.com</p>
             <p><img src={call} alt="" height ="20px"/> (+91) 20 652955/6/7/8</p>
           </div>
