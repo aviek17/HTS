@@ -2,6 +2,10 @@ import React from 'react'
 import c1 from "../Product Images/c&r panel.jpg"
 import c2 from "../Product Images/fcma soft.jpg"
 import c3 from "../Product Images/generator relay.jpg"
+import c4 from "../photo for flashing/33KV, ISOLATOR PANEL.JPG"
+import c5 from "../photo for flashing/33KV, kiosk for wind mil.JPG"
+import c6 from "../photo for flashing/33KV, LBS PANEL.JPG"
+import c7 from "../photo for flashing/outdoor LT panel.JPG"
 import { Link } from 'react-router-dom'
 
 const Carousell = () => {
@@ -9,7 +13,13 @@ const Carousell = () => {
         <>
             <div className="carousel slide carouselB" data-bs-ride="carousel" id="carouselExampleIndicators">
                 <div className="carousel-indicators">
-                    <button aria-label="Slide 1" className="active" data-bs-slide-to="0" data-bs-target="#carouselExampleIndicators" type="button"></button> <button aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#carouselExampleIndicators" type="button"></button> <button aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#carouselExampleIndicators" type="button"></button>
+                    <button aria-label="Slide 1" className="active" data-bs-slide-to="0" data-bs-target="#carouselExampleIndicators" type="button"></button>
+                    <button aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#carouselExampleIndicators" type="button"></button>
+                    <button aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#carouselExampleIndicators" type="button"></button>
+                    <button aria-label="Slide 4" data-bs-slide-to="3" data-bs-target="#carouselExampleIndicators" type="button"></button>
+                    <button aria-label="Slide 5" data-bs-slide-to="4" data-bs-target="#carouselExampleIndicators" type="button"></button>
+                    <button aria-label="Slide 6" data-bs-slide-to="5" data-bs-target="#carouselExampleIndicators" type="button"></button>
+                    <button aria-label="Slide 7" data-bs-slide-to="6" data-bs-target="#carouselExampleIndicators" type="button"></button>
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item  active">
@@ -38,7 +48,43 @@ const Carousell = () => {
                             <p className="animated bounceInRight carouselP2"><Link to="/about">Learn More</Link></p>
                         </div>
                     </div>
-                </div><button className="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleIndicators" type="button"><span aria-hidden="true" className="carousel-control-prev-icon"></span> <span className="visually-hidden">Previous</span></button> <button className="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselExampleIndicators" type="button"><span aria-hidden="true" className="carousel-control-next-icon"></span> <span className="visually-hidden">Next</span></button>
+                    <div className="carousel-item">
+                        <Link to="/about"><img alt="..." className="d-block  imgCarousel1" src={c4} /></Link>
+                        <div className="carousel-caption caption2">
+                            <p className="animated bounceInRight carouselHeader" ><span>ISOLATOR PANEL</span></p>
+
+                            <p className="animated bounceInLeft d-none d-md-block carouselP1">For 33KV</p>
+                            <p className="animated bounceInRight carouselP2"><Link to="/product">Learn More</Link></p>
+                        </div>
+                    </div>
+                    <div className="carousel-item ">
+                        <Link to="/about"><img alt="..." className="d-block  imgCarousel" src={c5} /></Link>
+                        <div className="carousel-caption caption3">
+                            <p className="animated bounceInRight carouselHeader" ><span>KIOSK for Wind & Solar Application</span></p>
+                            <p className="animated bounceInLeft d-none d-md-block carouselP1">For 33KV</p>
+                            <p className="animated bounceInRight carouselP2"><Link to="/about">Learn More</Link></p>
+                        </div>
+                    </div>
+                    <div className="carousel-item">
+                        <Link to="/about"><img alt="..." className="d-block  imgCarousel1" src={c6} /></Link>
+                        <div className="carousel-caption caption2">
+                            <p className="animated bounceInRight carouselHeader" ><span>LBS Panel</span></p>
+
+                            <p className="animated bounceInLeft d-none d-md-block carouselP1">For 33KV</p>
+                            <p className="animated bounceInRight carouselP2"><Link to="/product">Learn More</Link></p>
+                        </div>
+                    </div>
+                    <div className="carousel-item ">
+                        <Link to="/about"><img alt="..." className="d-block  imgCarousel" src={c7} /></Link>
+                        <div className="carousel-caption caption3">
+                            <p className="animated bounceInRight carouselHeader" ><span>LT Panel</span></p>
+                            <p className="animated bounceInLeft d-none d-md-block carouselP1">For Outdoor</p>
+                            <p className="animated bounceInRight carouselP2"><Link to="/about">Learn More</Link></p>
+                        </div>
+                    </div>
+                </div>
+                <button className="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleIndicators" type="button"><span aria-hidden="true" className="carousel-control-prev-icon"></span> <span className="visually-hidden">Previous</span></button>
+                <button className="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselExampleIndicators" type="button"><span aria-hidden="true" className="carousel-control-next-icon"></span> <span className="visually-hidden">Next</span></button>
             </div>
 
 

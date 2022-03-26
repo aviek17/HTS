@@ -286,7 +286,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 80vh;
+  min-height: 70vh;
   background-color: rgb(250, 245, 245);
   overflow: hidden;
   padding: 80px 20px;
@@ -370,7 +370,7 @@
 .containerProfile .cardProfile:hover .imgProfile p {
   visibility: visible;
   display: block;
-  font-family: "Courier New", Courier, monospace;
+  font-family: Arial;
   font-size: 15px;
   display: flex;
   justify-content: center;
@@ -430,7 +430,7 @@
 }
 
 .teamTitle button {
-  margin-top: -20px;
+  margin-top: -50px;
   height: 50px;
   width: 120px;
   border-radius: 10px;

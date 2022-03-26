@@ -1,18 +1,18 @@
 import React from 'react'
-import l1 from "../Logo/l1.jpg"
-import l2 from "../Logo/l2.jpg"
-import l3 from "../Logo/l3.jpg"
-import l4 from "../Logo/l4.png"
-import l5 from "../Logo/l5.jpg"
+import l1 from "../Logo/1.jpg"
+import l2 from "../Logo/10.jpg"
+import l3 from "../Logo/3.jpg"
+import l4 from "../Logo/34.jpg"
+import l5 from "../Logo/54.png"
 
-import l7 from "../Logo/l7.png"
+import l7 from "../Logo/24.jpg"
 
-import l9 from "../Logo/l9.png"
-import l10 from "../Logo/l10.jpg"
-import l11 from "../Logo/l11.jpg"
-import l12 from "../Logo/l12.jpg"
-import l13 from "../Logo/l13.jpg"
-import l14 from "../Logo/l14.png"
+import l9 from "../Logo/46.png"
+import l10 from "../Logo/61.jpg"
+import l11 from "../Logo/15.jpg"
+import l12 from "../Logo/9.jpg"
+import l13 from "../Logo/20.jpg"
+import l14 from "../Logo/49.png"
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
