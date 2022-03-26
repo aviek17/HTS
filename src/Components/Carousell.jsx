@@ -27,61 +27,68 @@ const Carousell = () => {
                         <div className="carousel-caption caption1">
                             <p className="animated bounceInRight carouselHeader" ><span>Welcome to HT Switchgears </span></p>
 
-                            <p className="animated bounceInLeft d-none d-md-block carouselP1">Established in 2006, HTSwitchgears Pune (India) is a multi-product, vertically integrated manufacturer. Specialized in entire range of Medium Voltage, Low voltage Switchgears & Services.  Company is motivated & promoted by first generation entrepreneurs.</p>
+                            <p className="animated bounceInLeft d-none d-md-block carouselP1"></p>
                             <p className="animated bounceInRight carouselP2"><Link to="/about">Learn More</Link></p>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <Link to="/about"><img alt="..." className="d-block  imgCarousel1" src={c2} /></Link>
                         <div className="carousel-caption caption2">
-                            <p className="animated bounceInRight carouselHeader" ><span>FCMA Soft Starter for HT & LT </span></p>
+                            <p className="animated bounceInRight carouselHeader" ><span>Welcome to HT Switchgears </span></p>
 
-                            <p className="animated bounceInLeft d-none d-md-block carouselP1">For 415V to 12KV</p>
+                            <p className="animated bounceInLeft d-none d-md-block carouselP1"></p>
                             <p className="animated bounceInRight carouselP2"><Link to="/product">Learn More</Link></p>
                         </div>
                     </div>
                     <div className="carousel-item ">
                         <Link to="/about"><img alt="..." className="d-block  imgCarousel" src={c1} /></Link>
                         <div className="carousel-caption caption3">
-                            <p className="animated bounceInRight carouselHeader" ><span>C & R panel</span></p>
-                            <p className="animated bounceInLeft d-none d-md-block carouselP1">For Local Electricity Board as per specification</p>
+                            <p className="animated bounceInRight carouselHeader" ><span>Welcome to HT Switchgears </span></p>
+                            <p className="animated bounceInLeft d-none d-md-block carouselP1"></p>
                             <p className="animated bounceInRight carouselP2"><Link to="/about">Learn More</Link></p>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <Link to="/about"><img alt="..." className="d-block  imgCarousel1" src={c4} /></Link>
                         <div className="carousel-caption caption2">
-                            <p className="animated bounceInRight carouselHeader" ><span>ISOLATOR PANEL</span></p>
+                            <p className="animated bounceInRight carouselHeader" ><span>Welcome to HT Switchgears </span></p>
 
-                            <p className="animated bounceInLeft d-none d-md-block carouselP1">For 33KV</p>
+                            <p className="animated bounceInLeft d-none d-md-block carouselP1"></p>
                             <p className="animated bounceInRight carouselP2"><Link to="/product">Learn More</Link></p>
                         </div>
                     </div>
                     <div className="carousel-item ">
                         <Link to="/about"><img alt="..." className="d-block  imgCarousel" src={c5} /></Link>
                         <div className="carousel-caption caption3">
-                            <p className="animated bounceInRight carouselHeader" ><span>KIOSK for Wind & Solar Application</span></p>
-                            <p className="animated bounceInLeft d-none d-md-block carouselP1">For 33KV</p>
+                            <p className="animated bounceInRight carouselHeader" ><span>Welcome to HT Switchgears </span></p>
+                            <p className="animated bounceInLeft d-none d-md-block carouselP1"></p>
                             <p className="animated bounceInRight carouselP2"><Link to="/about">Learn More</Link></p>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <Link to="/about"><img alt="..." className="d-block  imgCarousel1" src={c6} /></Link>
                         <div className="carousel-caption caption2">
-                            <p className="animated bounceInRight carouselHeader" ><span>LBS Panel</span></p>
+                            <p className="animated bounceInRight carouselHeader" ><span>Welcome to HT Switchgears </span></p>
 
-                            <p className="animated bounceInLeft d-none d-md-block carouselP1">For 33KV</p>
+                            <p className="animated bounceInLeft d-none d-md-block carouselP1"></p>
                             <p className="animated bounceInRight carouselP2"><Link to="/product">Learn More</Link></p>
                         </div>
                     </div>
                     <div className="carousel-item ">
                         <Link to="/about"><img alt="..." className="d-block  imgCarousel" src={c7} /></Link>
                         <div className="carousel-caption caption3">
-                            <p className="animated bounceInRight carouselHeader" ><span>LT Panel</span></p>
-                            <p className="animated bounceInLeft d-none d-md-block carouselP1">For Outdoor</p>
+                            <p className="animated bounceInRight carouselHeader" ><span>Welcome to HT Switchgears </span></p>
+                            <p className="animated bounceInLeft d-none d-md-block carouselP1"></p>
                             <p className="animated bounceInRight carouselP2"><Link to="/about">Learn More</Link></p>
                         </div>
                     </div>
+
+                    {/* here remove the div and use map function to view in banner          
+                                    write code here
+
+                                    
+                     */}
+
                 </div>
                 <button className="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleIndicators" type="button"><span aria-hidden="true" className="carousel-control-prev-icon"></span> <span className="visually-hidden">Previous</span></button>
                 <button className="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselExampleIndicators" type="button"><span aria-hidden="true" className="carousel-control-next-icon"></span> <span className="visually-hidden">Next</span></button>

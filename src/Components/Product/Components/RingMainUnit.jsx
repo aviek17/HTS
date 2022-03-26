@@ -10,6 +10,7 @@ const Ring = () => {
 
     return (
         <>
+         <h2 className="productHeader">Our Products</h2>
             <div className="productDesign">
                 <div className="containerProduct">
                     <div className="imgBx">
@@ -18,7 +19,7 @@ const Ring = () => {
                     <div className="detailsProduct">
                         <div className="contentProduct">
                             <h2>
-                                	Ring main unit [RMU] up to 33KV (indoor /outdoor type)
+                                Ring main unit [RMU] up to 33KV (indoor /outdoor type)
                             </h2>
                             <p>
                                 it Can be made extensible on both sides.

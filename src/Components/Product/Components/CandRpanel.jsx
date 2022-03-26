@@ -9,6 +9,7 @@ const CandR = () => {
 
     return (
         <>
+         <h2 className="productHeader">Our Products</h2>
             <div className="productDesign">
                 <div className="containerProduct">
                     <div className="imgBx">

@@ -37,7 +37,7 @@
 }
 
 .containerProduct .detailsProduct{
-    background : #63e9e9;
+    background : #cfe0e0;
     display: flex;
     justify-content : center;
     align-items: center;
@@ -143,4 +143,10 @@
         /* margin-right : 10%; */
     }
 
+}
+
+.productHeader{
+    text-align: center;
+    columns: maroon;
+    margin-top: 40px;
 }
