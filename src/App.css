@@ -500,9 +500,11 @@ input {
 }
 
 .image-section {
+  position: relative;
   float: left;
   width: 45%;
   margin: auto;
+  top: -10px;
 }
 
 .image-section img {

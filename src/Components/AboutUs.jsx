@@ -26,14 +26,14 @@ const AboutUs = () => {
                     <div className="row">
                         <div className="col-sm-7" data-aos="zoom-out">
                             <h3 className="text-center aboutTwoTitle">WELCOME TO <span className="HTSwitch">HT SWITCHGEARS</span></h3>
-                            <p>Established in 2006, <strong>HT Switchgears Pune (India)</strong> is a multi-product, vertically integrated manufacturer. Specialized in entire range of Medium Voltage, Low voltage Switchgears & Services.
+                            <p className="AboutHead">Established in 2006, <strong>HT Switchgears Pune (India)</strong> is a multi-product, vertically integrated manufacturer. Specialized in entire range of Medium Voltage, Low voltage Switchgears & Services.
                                 Company is motivated & promoted by first generation entrepreneurs.
                                 A group of technocrats complimented by a dedicated team and powered by technical up gradation-integration-innovation-transparency and integrity at each stage of our growth.</p>
                             <p>State-of-the-Art designing, manufacturing & testing facilities along with thrust on quality and technology are giving HTS national and international recognition in the form of Certifications by leading Government /Semi Government/ Private Organizations across India and International customers.</p>
                             <p> <strong>HT SWITCHGEARS</strong> earnestly & continuously strives to achieve excellence not only in its operations but also in the foray of Corporate Citizenship. With deep respect for social values and human ethos we are committed to improve the Quality of life of its employees through Safe work practices and healthy environment.</p>
                         </div>
                         <div className="col-sm-5" data-aos="zoom-out-up">
-                            <div className="img-wrap">
+                            <div className="img-wrap imgHead">
                                 <img src={about} alt="" />
                             </div>
                         </div>
@@ -69,93 +69,95 @@ const AboutUs = () => {
                         </div>
                     </div>
                 </div>
-                <section id="aboutUs">
-                    <div className="containerAboutTwo">
-                        <div className="row ">
-                            <div className="col-sm-7 divViews" data-aos="zoom-out-down">
-                                <h3 className="text-center aboutTwoTitle viewsTitle">Our Vision</h3>
-                                <p >
-                                    H.T. SWITCHGEARS shall be professionally managed, customer driven & committed to total quality.
-                                    <br /> <br /> H.T. SWITCHGEARS shall be Market leader with significant global perspective in the vertical product segments, we operate.
-                                    <br /> <br /> H.T. SWITCHGEARS shall be learning organization while achieving exponential growth & glory, focused on customer exultation research & development, world class manufacturing practices & ethical value system
-                                    <br /> <br />  H.T. SWITCHGEARS shall be an accountable corporate citizen empowering its human resources & all its stakeholders’ consistent growth, pride, thrill & Excellence.
+                <section className="AboutDescription">
+                    <section id="aboutUs">
+                        <div className="containerAboutTwo ">
+                            <div className="row ">
+                                <div className="col-sm-7 divViews" data-aos="zoom-out-down">
+                                    <h3 className="text-center aboutTwoTitle viewsTitle">Our Vision</h3>
+                                    <p >
+                                        H.T. SWITCHGEARS shall be professionally managed, customer driven & committed to total quality.
+                                        <br /> <br /> H.T. SWITCHGEARS shall be Market leader with significant global perspective in the vertical product segments, we operate.
+                                        <br /> <br /> H.T. SWITCHGEARS shall be learning organization while achieving exponential growth & glory, focused on customer exultation research & development, world class manufacturing practices & ethical value system
+                                        <br /> <br />  H.T. SWITCHGEARS shall be an accountable corporate citizen empowering its human resources & all its stakeholders’ consistent growth, pride, thrill & Excellence.
 
-                                </p>
-                            </div>
-                            <div className="col-sm-5" data-aos="zoom-out-up">
-                                <div className="img-wrap imageDetailsViews">
-                                    <img src={vision} alt="" />
+                                    </p>
+                                </div>
+                                <div className="col-sm-5" data-aos="zoom-out-up">
+                                    <div className="img-wrap imageDetailsViews">
+                                        <img src={vision} alt="" height="300px" />
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </section>
-                <section id="aboutUs">
-                    <div className="containerAboutTwo">
-                        <div className="row ">
-                            <div className="col-sm-5" data-aos="zoom-out-up">
-                                <div className="img-wrap imageDetailsMission">
-                                    <img src={mission} alt="" />
+                    </section>
+                    <section id="aboutUs">
+                        <div className="containerAboutTwo">
+                            <div className="row ">
+                                <div className="col-sm-5" data-aos="zoom-out-up">
+                                    <div className="img-wrap imageDetailsMission">
+                                        <img src={mission} alt="" height="300px" />
+                                    </div>
                                 </div>
-                            </div>
-                            <div className="col-sm-7 divViews" data-aos="zoom-out-down">
-                                <h3 className="text-center aboutTwoTitle viewsTitle">Our Mission</h3>
-                                <p >
+                                <div className="col-sm-7 divViews" data-aos="zoom-out-down">
+                                    <h3 className="text-center aboutTwoTitle viewsTitle">Our Mission</h3>
+                                    <p >
 
-                                    H.T. SWITCHGEARS will endeavor to achieve this vision by continually its upgrading its knowledge /core competence through indigenous research & development, human resource development, promoting, team spirit & entrepreneurship among its employees in order to achieve total customer satisfaction.
+                                        H.T. SWITCHGEARS will endeavor to achieve this vision by continually its upgrading its knowledge /core competence through indigenous research & development, human resource development, promoting, team spirit & entrepreneurship among its employees in order to achieve total customer satisfaction.
 
-                                </p>
-                            </div>
-
-                        </div>
-                    </div>
-                </section>
-                <section id="aboutUs">
-                    <div className="containerAboutTwo">
-                        <div className="row ">
-                            <div className="col-sm-7 divViews" data-aos="zoom-out-down">
-                                <h3 className="text-center aboutTwoTitle viewsTitle">Quality Policy</h3>
-                                <p >
-
-                                    H T Switchgears is driven by spirit of excellence, committed to enhance customer satisfaction by supplying Quality products as per customer’s requirements within the specified time limit.
-                                    <br /> <br />
-                                    Our focus is adding value at all stages and implement best business practices transparently by involving, motivating our employees and suppliers.
-                                    <br /> <br />
-                                    We will continually review our Quality Management System for growth of our organization.
-
-                                </p>
-                            </div>
-                            <div className="col-sm-5" data-aos="zoom-out-up">
-                                <div className="img-wrap imageDetailsMission1">
-                                    <img src={quality} alt="" />
+                                    </p>
                                 </div>
+
                             </div>
                         </div>
-                    </div>
-                </section>
-                <section id="aboutUs mb-5">
-                    <div className="containerAboutTwo">
-                        <div className="row ">
-                            <div className="col-sm-5" data-aos="zoom-out-up">
-                                <div className="img-wrap imageDetailsViewsEHS">
-                                    <img src={ehs} alt="" />
+                    </section>
+                    <section id="aboutUs">
+                        <div className="containerAboutTwo">
+                            <div className="row ">
+                                <div className="col-sm-7 divViews" data-aos="zoom-out-down">
+                                    <h3 className="text-center aboutTwoTitle viewsTitle quality">Quality Policy</h3>
+                                    <p className="quality" >
+
+                                        H T Switchgears is driven by spirit of excellence, committed to enhance customer satisfaction by supplying Quality products as per customer’s requirements within the specified time limit.
+                                        <br /> <br />
+                                        Our focus is adding value at all stages and implement best business practices transparently by involving, motivating our employees and suppliers.
+                                        <br /> <br />
+                                        We will continually review our Quality Management System for growth of our organization.
+
+                                    </p>
+                                </div>
+                                <div className="col-sm-5" data-aos="zoom-out-up">
+                                    <div className="img-wrap imageDetailsMission1">
+                                        <img src={quality} alt="" height="300px" />
+                                    </div>
                                 </div>
                             </div>
-                            <div className="col-sm-7 divViews1" data-aos="zoom-out-down">
-                                <h3 className="text-center aboutTwoTitle viewsTitle">Environment Health, Safety (EHS) policy</h3>
-                                <p >
-                                    We, at HT Switchgears are committed to cause of promoting environmental conscience in the society by creating the awareness of environment, health and safety by:
-                                    <br /> <br /> Safe and healthy environment for employees.
-                                    <br /> <br />Providing training and management through environment friendly energy technologies & raising energy efficiency.
-                                    <br /> <br />Complying with all applicable legal and other requirements related to environment & safety aspects.
-                                    <br /> <br />Continually improving the product/process & services in order to limit, prevent & eliminate environmental pollution.
-                                    <br /> <br />Communicating EHS policy to all people working for or on behalf of the organization.
-
-                                </p>
-                            </div>
-
                         </div>
-                    </div>
+                    </section>
+                    <section id="aboutUs mb-5">
+                        <div className="containerAboutTwo">
+                            <div className="row ">
+                                <div className="col-sm-5" data-aos="zoom-out-up">
+                                    <div className="img-wrap imageDetailsViewsEHS">
+                                        <img src={ehs} alt="" height="300px" />
+                                    </div>
+                                </div>
+                                <div className="col-sm-7 divViews1" data-aos="zoom-out-down">
+                                    <h3 className="text-center aboutTwoTitle viewsTitle">Environment Health, Safety (EHS) policy</h3>
+                                    <p >
+                                        We, at HT Switchgears are committed to cause of promoting environmental conscience in the society by creating the awareness of environment, health and safety by:
+                                        <br /> <br /> Safe and healthy environment for employees.
+                                        <br /> <br />Providing training and management through environment friendly energy technologies & raising energy efficiency.
+                                        <br /> <br />Complying with all applicable legal and other requirements related to environment & safety aspects.
+                                        <br /> <br />Continually improving the product/process & services in order to limit, prevent & eliminate environmental pollution.
+                                        <br /> <br />Communicating EHS policy to all people working for or on behalf of the organization.
+
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </section>
                 </section>
             </div>
 

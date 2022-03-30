@@ -3,6 +3,14 @@
   margin-top : 90px;
 }
 
+.imgHead{
+  margin-top: 60px;
+}
+
+.imgHead img{
+  height: 400px;
+}
+
 .img-wrap img {
 
   width: 100%;
@@ -10,18 +18,20 @@
   border-radius: 30%;
   box-shadow: 0 0 10px #9999;
   border: 2px solid rgb(5, 5, 5);
+
 }
 
 #aboutUs {
-  height: 80vh;
-  margin-top: 30px;
+  height: 70vh;
+  /* margin-top: 30px; */
+  /* margin-bottom: 20px; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 #aboutUs .aboutTwoTitle {
-  margin: 30px;
+  margin: 10px;
   font-weight: bold;
 }
 #aboutUs .aboutTwoTitle span {
@@ -49,7 +59,7 @@
 
 #about1 .containerAboutTwo p {
   text-align: justify;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 #about1 .containerAboutTwo p strong {
@@ -470,33 +480,47 @@
 }
 
 .imageDetailsViews img {
-  margin-top: 40px;
+  height: 400px;
+  margin-top: -60px;
+}
+
+.AboutDescription{
+  margin-top: 30px;
 }
 
 .divViews p {
-  font-size: 20px !important;
+  font-size: 18px !important;
   color : white;
 }
 
 
 .divViews1 p {
   margin-top:30px !important;
-  font-size: 20px !important;
+  font-size: 18px !important;
   color : white;
 }
 
+.divViews .quality{
+  position: relative;
+  top: -80px;
+}
 
+.divViews1 p,.divViews1 h3{
+  position: relative;
+  top: -50px;
+}
 .imageDetailsMission img {
-  margin-top: -40px;
+  height: 300px;
+  margin-top: -120px;
 }
 .imageDetailsMission1 img {
-  margin-top: -60px;
-  height: 400px;
+  margin-top: -170px;
+  height: 350px;
 }
 
 .imageDetailsViewsEHS img {
-  margin-top: -40px;
-  height: 500px;
+  margin-top: -80px;
+  height: 400px;
 }
 
 .viewsTitle{
