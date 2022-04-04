@@ -419,11 +419,11 @@
   margin-bottom: 20px;
 }
 
-.teamTitle h1 {
-  font-size: 40px;
+.teamTitle h3 {
+  font-size: 30px;
   font-weight: 500;
 }
-.teamTitle h1 span {
+.teamTitle h3 span {
   color: rgb(204, 60, 16);
 }
 
@@ -540,5 +540,42 @@
   .teamTitlePara{
     width: 95%;
     margin-left: 2.5%;
+  }
+}
+
+
+
+.views{
+  width : 80%;
+  margin-left : 10%;
+}
+
+.missionDescription{
+  margin-bottom : 40px;
+  box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.6);
+  border-radius : 20px;
+}
+
+.missionDescription h5{
+  font-size : 25px;
+  color : rgb(81, 48, 34);
+  margin-left : 30px;
+}
+
+.missionDescription p{
+  text-align : justify;
+  margin-left : 30px;
+  font-weight : 450;
+  line-height : 30px;
+  margin-right : 30px;
+}
+
+.missionDescription p span{
+ margin-right : 10px;
+}
+
+@media (max-width : 780px){
+  .missionDescription p{
+    margin-right : 30px;
   }
 }
