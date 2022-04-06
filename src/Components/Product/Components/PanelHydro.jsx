@@ -19,8 +19,9 @@ const Hydero = () => {
                     <div className="detailsProduct">
                         <div className="contentProduct">
                             <h2>
-                            	Panel required for Hydro / co-generation projects
+                             Panel required for Hydro / co-generation projects
                             </h2>
+                            
                             <p>
                             These Panels are widely used in power plants & are completely tailor made as per customer requirement & technical specification.
                             </p>

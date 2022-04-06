@@ -86,7 +86,7 @@ const AboutUs = () => {
             </div>
 
             {/* team */}
-            <div className="teamTitle" data-aos="flip-down"><h3>Our <span>Team</span> </h3></div>
+            <div className="teamTitle" data-aos="flip-down"><h3>Our <span>Management</span> </h3></div>
 
             <section className="profile">
 
@@ -96,7 +96,7 @@ const AboutUs = () => {
                             <img src={pld} alt="" />
                             <h2>Mr. P. L. Dixit</h2>
                             <p>Sales Director <br />
-                                Dpt. Elect. Engg. <br />
+                                B.E. Electrical <br />
                                 29 years Experience</p>
                             <ul className="social-icons">
                                 <li><Link to="/management"><box-icon name='facebook-circle' type='logo' color='#2e64a4' ></box-icon></Link></li>
@@ -110,7 +110,7 @@ const AboutUs = () => {
                     <div className="cardProfile">
                         <div className="imgProfile">
                             <img src={rbk} alt="" />
-                            <h2>Mr.R .B .Khopkar</h2>
+                            <h2>Mr. R. B. Khopkar</h2>
                             <p>Technical Director <br />
                                 B.E. Electrical <br />
                                 27 years Experience</p>
@@ -126,7 +126,7 @@ const AboutUs = () => {
                     <div className="cardProfile">
                         <div className="imgProfile">
                             <img src={sbb} alt="" />
-                            <h2>Mr.Badave</h2>
+                            <h2>Mr. S. B. Badave</h2>
                             <p>Operations Director <br />
                                 B.E. Electrical <br />
                                 28 years Experience</p>

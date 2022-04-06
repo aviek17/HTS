@@ -1,17 +1,17 @@
 import React from 'react'
 import l1 from "../Logo/1.jpg"
 import l2 from "../Logo/10.jpg"
-import l3 from "../Logo/3.jpg"
-import l4 from "../Logo/34.jpg"
+import l3 from "../Logo/22.jpg"
+import l4 from "../Logo/52.png"
 import l5 from "../Logo/54.png"
 
 import l7 from "../Logo/24.jpg"
 
 import l9 from "../Logo/46.png"
-import l10 from "../Logo/61.jpg"
+import l10 from "../Logo/Seal_of_Goa.png"
 import l11 from "../Logo/15.jpg"
 import l12 from "../Logo/9.jpg"
-import l13 from "../Logo/20.jpg"
+import l13 from "../Logo/24.jpg"
 import l14 from "../Logo/49.png"
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
@@ -84,7 +84,7 @@ const HomeClient = () => {
                     <OwlCarousel
                         className='owl-theme'
                         items={5}
-                        loop margin={10}
+                        loop margin={20}
                         nav={true}
                         autoplay={true}
                         autoplayTimeout={2500}

@@ -1,11 +1,11 @@
 import React from 'react'
-import c1 from "../Product Images/c&r panel.jpg"
-import c2 from "../Product Images/fcma soft.jpg"
-import c3 from "../Product Images/generator relay.jpg"
-import c4 from "../photo for flashing/33KV, ISOLATOR PANEL.JPG"
-import c5 from "../photo for flashing/33KV, kiosk for wind mil.JPG"
-import c6 from "../photo for flashing/33KV, LBS PANEL.JPG"
-import c7 from "../photo for flashing/outdoor LT panel.JPG"
+import c1 from "../photo for flashing/33KV, kiosk for wind mil.JPG"
+import c2 from "../photo for flashing/33KV__ISOLATOR_PANEL-removebg-preview.png"
+import c3 from "../photo for flashing/33KV__LBS_PANEL-removebg-preview.png"
+import c4 from "../photo for flashing/33KV__OUTDOOR_VCB_switchboard_panel-removebg-preview.png"
+import c5 from "../photo for flashing/BUS_CAPACITOR_PANEL-removebg-preview.png"
+import c6 from "../photo for flashing/OUTDOOR_TYPE_11KV_3panel_board-removebg-preview.png"
+import c7 from "../photo for flashing/LT_PANEL_-2-removebg-preview.png"
 import { Link } from 'react-router-dom'
 
 const Carousell = () => {
@@ -27,7 +27,7 @@ const Carousell = () => {
                         <div className="carousel-caption caption1">
                             <p className="animated bounceInRight carouselHeader" ><span>Welcome to HT Switchgears </span></p>
 
-                            <p className="animated bounceInLeft d-none d-md-block carouselP1"></p>
+                            <p className="animated bounceInLeft d-none d-md-block carouselP1">One Stop Electrical Solution</p>
                             <p className="animated bounceInRight carouselP2"><Link to="/about">Learn More</Link></p>
                         </div>
                     </div>
@@ -36,7 +36,7 @@ const Carousell = () => {
                         <div className="carousel-caption caption2">
                             <p className="animated bounceInRight carouselHeader" ><span>Welcome to HT Switchgears </span></p>
 
-                            <p className="animated bounceInLeft d-none d-md-block carouselP1"></p>
+                            <p className="animated bounceInLeft d-none d-md-block carouselP1">One Stop Electrical Solution</p>
                             <p className="animated bounceInRight carouselP2"><Link to="/product">Learn More</Link></p>
                         </div>
                     </div>
@@ -44,7 +44,7 @@ const Carousell = () => {
                         <Link to="/about"><img alt="..." className="d-block  imgCarousel" src={c1} /></Link>
                         <div className="carousel-caption caption3">
                             <p className="animated bounceInRight carouselHeader" ><span>Welcome to HT Switchgears </span></p>
-                            <p className="animated bounceInLeft d-none d-md-block carouselP1"></p>
+                            <p className="animated bounceInLeft d-none d-md-block carouselP1">One Stop Electrical Solution</p>
                             <p className="animated bounceInRight carouselP2"><Link to="/about">Learn More</Link></p>
                         </div>
                     </div>
@@ -53,7 +53,7 @@ const Carousell = () => {
                         <div className="carousel-caption caption2">
                             <p className="animated bounceInRight carouselHeader" ><span>Welcome to HT Switchgears </span></p>
 
-                            <p className="animated bounceInLeft d-none d-md-block carouselP1"></p>
+                            <p className="animated bounceInLeft d-none d-md-block carouselP1">One Stop Electrical Solution</p>
                             <p className="animated bounceInRight carouselP2"><Link to="/product">Learn More</Link></p>
                         </div>
                     </div>
@@ -61,7 +61,7 @@ const Carousell = () => {
                         <Link to="/about"><img alt="..." className="d-block  imgCarousel" src={c5} /></Link>
                         <div className="carousel-caption caption3">
                             <p className="animated bounceInRight carouselHeader" ><span>Welcome to HT Switchgears </span></p>
-                            <p className="animated bounceInLeft d-none d-md-block carouselP1"></p>
+                            <p className="animated bounceInLeft d-none d-md-block carouselP1">One Stop Electrical Solution</p>
                             <p className="animated bounceInRight carouselP2"><Link to="/about">Learn More</Link></p>
                         </div>
                     </div>
@@ -70,7 +70,7 @@ const Carousell = () => {
                         <div className="carousel-caption caption2">
                             <p className="animated bounceInRight carouselHeader" ><span>Welcome to HT Switchgears </span></p>
 
-                            <p className="animated bounceInLeft d-none d-md-block carouselP1"></p>
+                            <p className="animated bounceInLeft d-none d-md-block carouselP1">One Stop Electrical Solution</p>
                             <p className="animated bounceInRight carouselP2"><Link to="/product">Learn More</Link></p>
                         </div>
                     </div>
@@ -78,10 +78,11 @@ const Carousell = () => {
                         <Link to="/about"><img alt="..." className="d-block  imgCarousel" src={c7} /></Link>
                         <div className="carousel-caption caption3">
                             <p className="animated bounceInRight carouselHeader" ><span>Welcome to HT Switchgears </span></p>
-                            <p className="animated bounceInLeft d-none d-md-block carouselP1"></p>
+                            <p className="animated bounceInLeft d-none d-md-block carouselP1">One Stop Electrical Solution</p>
                             <p className="animated bounceInRight carouselP2"><Link to="/about">Learn More</Link></p>
                         </div>
                     </div>
+                   
 
                     {/* here remove the div and use map function to view in banner          
                                     write code here
@@ -90,8 +91,8 @@ const Carousell = () => {
                      */}
 
                 </div>
-                <button className="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleIndicators" type="button"><span aria-hidden="true" className="carousel-control-prev-icon"></span> <span className="visually-hidden">Previous</span></button>
-                <button className="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselExampleIndicators" type="button"><span aria-hidden="true" className="carousel-control-next-icon"></span> <span className="visually-hidden">Next</span></button>
+                <button className="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleIndicators" type="button"><span aria-hidden="true" ></span> <span><box-icon name='chevron-left' type='solid' ></box-icon></span></button>
+                <button className="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselExampleIndicators" type="button"><span aria-hidden="true" ></span> <span ><box-icon type='solid' name='chevron-right'></box-icon></span></button>
             </div>
 
 

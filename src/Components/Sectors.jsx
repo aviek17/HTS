@@ -1,6 +1,6 @@
 import React from 'react'
 import auto from "../Images/auto.png"
-import education from "../Images/education.jpg"
+import education from "../Images/education-system.jpg"
 import cement from "../Images/cement.jpg"
 import chemical from "../Images/chemical.jpg"
 import defence from "../Images/defence.jpg"
@@ -101,7 +101,7 @@ const data = [
     }, {
         id: 18,
         src: sanitization,
-        name: "Sanitization Department",
+        name: "PWD Department",
     }, {
         id: 19,
         src: sugar,

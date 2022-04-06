@@ -12,7 +12,7 @@ const OurManagement = () => {
             
             <div className="teamTitle teamTitlePara" data-aos="zoom-out">
                 <hr />
-                <h1>Our <span>Management</span> </h1>
+                <h3>Our <span>Management</span> </h3>
                 <p>
                     A promising Switchgear Manufacturing and Service provider company was established by a group of expert professionals. Diverse experience came together for achieving a common goal to steer customers through the next generation of business innovation powered by technology. The company was founded on the principle of building and implementing great ideas that drive progress for clients and enhance lives through enterprise solutions.
                 </p>
@@ -35,7 +35,7 @@ const OurManagement = () => {
                             </div>
                             <div className="contentDireactor" data-aos="fade-right">
                                 <p>
-                                    Mr. P.L. DIXIT
+                                    Mr. P. L. DIXIT
                                     <br />
                                     Sales Director
                                 </p>
@@ -55,7 +55,7 @@ const OurManagement = () => {
                             </div>
                             <div className="contentDireactor" data-aos="fade-right">
                                 <p>
-                                    Mr.BADVE
+                                    Mr. S. B. BADVE
                                     <br />
                                     Operations Director
                                 </p>
@@ -76,7 +76,7 @@ const OurManagement = () => {
                             </div>
                             <div className="contentDireactor" data-aos="fade-right">
                                 <p>
-                                    Mr.KHOPKAR
+                                    Mr. R. B. Khopkar
                                     <br />
                                     Technical Director
                                 </p>

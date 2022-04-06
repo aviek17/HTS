@@ -22,7 +22,7 @@ const Footer = () => {
           <div className="col links">
             <h3>Links <div className="underline"><span></span></div></h3>
             <ul className="footerLinks">
-              <li><NavLink to="/">Home</NavLink></li>
+              <li className="homeMe"><NavLink to="/">Home</NavLink></li>
               <li><NavLink to="/about">Who We Are</NavLink></li>
               <li><NavLink to="/approvals">Approvals</NavLink></li>
               <li><NavLink to="/product">Product</NavLink></li>
@@ -38,10 +38,10 @@ const Footer = () => {
           </div>
           <div className="col secondCol">
             <h3>Office <div className="underline"><span></span></div></h3>
-            <p>HT Switchgears</p>
-            <p>Survey No. 77/5, Dangat Estate, N.D.A.Road</p>
-            <p>At Post-Shivane, Tal-Haveli</p>
-            <p>Pune, Maharashtra, <br/> India - 411023</p>
+            <p>HT Switchgears
+           <br/>Survey No. 77/5, Dangat Estate, N.D.A.Road
+           <br/>At Post-Shivane, Tal-Haveli
+           <br/>Pune, Maharashtra, <br/> India - 411023 </p>
             <p className="email-id"> <img src={mail} height ="20px" alt="" /> marketing@htswitchgears.com</p>
             <p><img src={call} alt="" height ="20px"/> (+91) 20 652955/6/7/8</p>
           </div>

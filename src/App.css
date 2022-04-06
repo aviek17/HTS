@@ -5,7 +5,7 @@
 }
 
 nav {
-  background: white;
+  background: rgb(255, 255, 255);
   height: 80px;
   /* z-index:1; */
 }
@@ -21,7 +21,7 @@ nav:after {
 nav .logo {
   margin-left: 50px;
   float: left;
-  color: rgb(7, 7, 7);
+  color: rgb(219, 214, 214);
   padding-left: 60px;
  padding-bottom: 40px;
 }
@@ -41,8 +41,8 @@ nav ul li {
   float: left;
   display: inline-block;
   margin: 0px 8px;
-  background: white;
-  color: rgb(5, 5, 5);
+  background: rgb(255, 255, 255);
+  color: rgb(11, 11, 11);
 }
 
 
@@ -212,7 +212,7 @@ input {
 
 
 .bg-light {
-  background-color: black;
+  background-color: white;
 }
 .carousel-item {
   height: 400px;
@@ -228,7 +228,7 @@ input {
   font-size: 25px;
   /* text-transform: uppercase; */
   letter-spacing: 2px;
-  margin-top: 25px;
+  /* margin-top: 25px; */
   float: left;
   color : red;
 }
@@ -238,12 +238,12 @@ input {
   margin: auto;
   font-size: 18px;
   line-height: 1.5;
-  color: rgb(232, 234, 235);
+  color: rgb(10, 10, 10);
   animation-delay: 1s;
   float: left;
   margin-top: 20px;
   text-align: justify;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .caption1 a {
 
@@ -253,7 +253,7 @@ input {
   padding: 5px 10px;
   display: inline-block;
   color: #000;
-  margin-top: 15px;
+  /* margin-top: 15px; */
   animation-delay: 1s;
   float: left;
 }
@@ -262,12 +262,13 @@ input {
  
 }
 
+
 .caption2 h5 {
   animation-delay: 1s;
   font-size: 30px;
   /* text-transform: uppercase; */
   letter-spacing: 2px;
-  margin-top: 25px;
+  /* margin-top: 25px; */
   float: right;
   color : red;
   margin-right: 50px;
@@ -278,12 +279,12 @@ input {
   margin: auto;
   font-size: 20px;
   line-height: 1.9;
-  color: rgb(232, 234, 235);
+  color: rgb(9, 9, 9);
   animation-delay: 1s;
   float: right;
   margin-top: 20px;
   text-align: justify;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .caption2 a {
 
@@ -293,7 +294,7 @@ input {
   padding: 5px 20px;
   display: inline-block;
   color: #000;
-  margin-top: 15px;
+  /* margin-top: 15px; */
   animation-delay: 1s;
   
 }
@@ -316,13 +317,13 @@ input {
   margin: auto;
   font-size: 20px;
   line-height: 1.9;
-  color: rgb(232, 234, 235);
+  color: rgb(5, 5, 5);
   animation-delay: 1s;
   float: left;
   margin-top: 20px;
   text-align: justify;
-  /* margin-bottom: 20px; */
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  /* margin-bottom: 40px; */
 }
 
 .caption3 p span, .caption2 p span, .caption1 p span{
@@ -334,14 +335,13 @@ input {
 
 
 .caption3 a {
-
   text-transform: uppercase;
   text-decoration: none;
   background: rgb(196, 134, 93);
   padding: 10px 30px;
   display: inline-block;
   color: #000;
-  margin-top: 15px;
+  /* margin-top: 15px; */
   animation-delay: 1s;
   float: left;
 }
@@ -411,7 +411,9 @@ input {
   background: #fff;
 }
 .carouselB {
-  background-color: black;
+  background-color: rgb(255, 254, 254);
+  border-bottom: 1px solid #000;
+  border-top: 1px solid #000;
 }
 .carouselHeader {
   margin-top: 40px;
@@ -652,6 +654,7 @@ input {
   font-size:18px;
   font-weight:400;
   line-height:40px;
+  text-align: left;
 }
 .timeline::before{
   content: "";

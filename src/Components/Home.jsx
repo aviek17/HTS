@@ -24,7 +24,7 @@ const Home = () => {
                                 <p>
                                     Established in 2006, HT Switchgears Pune (India) is a multi-product, vertically integrated manufacturer. Specialized in entire range of Medium Voltage, Low voltage Switchgears & Services. Company is motivated & promoted by first generation entrepreneurs. A group of technocrats complimented by a dedicated team and powered by technical up gradation-integration-innovation-transparency and integrity at each stage of our growth.
                                 
-                                    <strong>H.T. SWITCHGEARS</strong> earnestly & continuously strives to achieve excellence not only in its operations but also in the foray of Corporate Citizenship. 
+                                    <strong> H.T. SWITCHGEARS</strong> earnestly & continuously strives to achieve excellence not only in its operations but also in the foray of Corporate Citizenship. 
                                 </p>
                                 <div className="button">
                                     <Link to="/about">Know More</Link>
@@ -51,8 +51,8 @@ const Home = () => {
                                 <ul>
                                     <li><div className="timeline-content"><h3>Manual control provision</h3></div></li>
                                     <li><div className="timeline-content"><h3>Fast operation</h3></div></li>
-                                    <li><div className="timeline-content"><h3>Completely certain discrimination</h3></div></li>
-                                    <li><div className="timeline-content"><h3>Entire Reliability</h3></div></li>
+                                    <li><div className="timeline-content"><h3>Uniform Solution to All</h3></div></li>
+                                    <li><div className="timeline-content"><h3>Reliability</h3></div></li>
                                 </ul>
                             </div>
                         </div>
