@@ -133,6 +133,7 @@
   background: lightsteelblue;
   margin-top: 70px;
   margin-bottom: 70px;
+  
 }
 
 .containerApproval{
@@ -240,6 +241,7 @@
 
 
 @media screen and (max-width: 1100px){
+ 
   .containerApproval{
       margin-top: 70px;
       margin-bottom: 70px;
@@ -264,37 +266,12 @@
   
 }   
 
-.designApprovals .containerApproval .paginationDesign .paginationBttns{
-  margin-top: 40px;
-  margin-left: 30px;
-  width: 80%;
-  height : 40px;
-  list-style-type: none;
-  display : flex;
-  justify-content: center;
-  text-decoration: none;
-}
-
-.designApprovals .containerApproval .paginationDesign .paginationBttns a{
-  padding: 10px;margin: 8px;
-  border-radius: 50px;
-  border: 2px solid #fff;
-  font-weight: 600;
-  color: #fff;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-.designApprovals .containerApproval .paginationDesign .paginationBttns a:hover{
-  color: black;
-  background: rgb(196, 193, 193);
-  font-weight: 800;
-}
-
-.designApprovals .containerApproval .paginationDesign .paginationActive a{
-  color: black;
-  background: rgb(196, 193, 193);
-  font-weight: 800;
-}
+  
+@media screen and (max-width: 400px){
+  .designApprovals{
+    display: block;
+  }
+}   
 
   
+
