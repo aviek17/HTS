@@ -25,7 +25,7 @@ const UnitCo = () => {
                                 We have a large selection of Unit Control Desks that come in a variety of sizes and configurations. We can also adapt the shape, size, style, and operation of these control panels to meet the needs of our clients, making us a popular choice across a wide range of industries.
                             </p>
                             <a href={file}><button className="buttonProductOne" >Download</button></a>
-                            <button className="buttonProductTwo">Enquiry</button>
+                            <Link to="/contact"><button  className="buttonProductTwo">Enquiry</button></Link>
                         </div>
                     </div>
                 </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import vcbImage from "../../../Product Images/transformer relay.jpg"
+import vcbImage from "../../../Product Images/transformer_relay-removebg-preview.png"
 import "./../Styles/ProductCard.css"
 import file from "../../../Images/Brochure_HTS_F_C&R,LT_SPECIAL.pdf"
 import {Link } from 'react-router-dom'
@@ -25,7 +25,7 @@ const TransRelay = () => {
                                 These panels are commonly used in power plants and are totally customised to meet the needs of the customer and technical specifications. It is compatible with Scada & remote operation
                             </p>
                             <a href={file}><button className="buttonProductOne" >Download</button></a>
-                            <button className="buttonProductTwo">Enquiry</button>
+                            <Link to="/contact"><button  className="buttonProductTwo">Enquiry</button></Link>
                         </div>
                     </div>
                 </div>

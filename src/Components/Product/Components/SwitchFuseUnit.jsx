@@ -1,5 +1,5 @@
 import React from 'react'
-import vcbImage from "../../../Product Images/switch fuse unit.jpg"
+import vcbImage from "../../../Product Images/switch_fuse_unit-removebg-preview.png"
 import "./../Styles/ProductCard.css"
 import file from "../../../Images/Brochure_HTS_F_C&R,LT_SPECIAL.pdf"
 import {Link } from 'react-router-dom'
@@ -28,7 +28,7 @@ const SFU = () => {
 
                             </p>
                             <a href={file}><button className="buttonProductOne" >Download</button></a>
-                            <button className="buttonProductTwo">Enquiry</button>
+                            <Link to="/contact"><button  className="buttonProductTwo">Enquiry</button></Link>
                         </div>
                     </div>
                 </div>

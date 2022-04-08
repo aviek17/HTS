@@ -31,7 +31,7 @@ const Kisok = () => {
 
                             </p>
                             <a href={file}><button className="buttonProductOne" >Download</button></a>
-                            <button className="buttonProductTwo">Enquiry</button>
+                            <Link to="/contact"><button  className="buttonProductTwo">Enquiry</button></Link>
                         </div>
                     </div>
                 </div>

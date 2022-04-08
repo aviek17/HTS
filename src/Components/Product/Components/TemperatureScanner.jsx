@@ -1,6 +1,5 @@
 import React from 'react'
-import vcbImage from "../../../Product Images/temperature scanner.jpg"
-import "./../Styles/ProductCard.css"
+import vcbImage from "../../../Product Images/temperature_scanner-removebg-preview.png"
 import file from "../../../Images/Brochure_HTS_F_C&R,LT_SPECIAL.pdf"
 import { Link } from 'react-router-dom'
 
@@ -27,7 +26,7 @@ const TempSc = () => {
 
                             </p>
                             <a href={file}><button className="buttonProductOne" >Download</button></a>
-                            <button className="buttonProductTwo">Enquiry</button>
+                            <Link to="/contact"><button  className="buttonProductTwo">Enquiry</button></Link>
                         </div>
                     </div>
                 </div>

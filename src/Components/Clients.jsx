@@ -42,7 +42,7 @@ import a40 from "../Logo/40.png"
 import a41 from "../Logo/41.png"
 import a42 from "../Logo/42.png"
 import a43 from "../Logo/43.png"
-import a44 from "../Logo/44.jpg"
+import a44 from "../Logo/Jyoti-limited.png"
 import a45 from "../Logo/45.png"
 import a46 from "../Logo/46.png"
 import a47 from "../Logo/47.png"
@@ -111,9 +111,9 @@ const Clients = () => {
         <div className="responsive">
           <div className="gallery"><img src={a14} alt="" height="110px" width="120px" /></div>
         </div>
-        <div className="responsive">
+        {/* <div className="responsive">
           <div className="gallery"><img src={a15} alt="" height="110px" width="120px" /></div>
-        </div>
+        </div> */}
         <div className="responsive">
           <div className="gallery"><img src={a16} alt="" height="110px" width="120px" /></div>
         </div>
@@ -126,18 +126,18 @@ const Clients = () => {
         <div className="responsive">
           <div className="gallery"><img src={a19} alt="" height="110px" width="120px" /></div>
         </div>
-        <div className="responsive">
-          <div className="gallery"><img src={a38} alt="" height="110px" width="120px" /></div>
-        </div>
+        {/* <div className="responsive">
+          <div className="gallery"><img src={a34} alt="" height="110px" width="120px" /></div>
+        </div> */}
         <div className="responsive">
           <div className="gallery"><img src={a20} alt="" height="110px" width="120px" /></div>
         </div>
         <div className="responsive">
           <div className="gallery"><img src={a21} alt="" height="110px" width="120px" /></div>
         </div>
-        <div className="responsive">
+        {/* <div className="responsive">
           <div className="gallery"><img src={a2} alt="" height="110px" width="120px" /></div>
-        </div>
+        </div> */}
         <div className="responsive">
           <div className="gallery"><img src={a3} alt="" height="110px" width="120px" /></div>
         </div>
@@ -250,27 +250,27 @@ const Clients = () => {
         <div className="responsive">
           <div className="gallery"><img src={a58} alt="" height="110px" width="120px" /></div>
         </div>
-        <div className="responsive">
+        {/* <div className="responsive">
           <div className="gallery"><img src={a50} alt="" height="110px" width="120px" /></div>
-        </div>
+        </div> */}
         <div className="responsive">
           <div className="gallery"><img src={a60} alt="" height="110px" width="120px" /></div>
         </div>
         <div className="responsive">
           <div className="gallery"><img src={a61} alt="" height="110px" width="120px" /></div>
         </div>
-        <div className="responsive">
+        {/* <div className="responsive">
           <div className="gallery"><img src={a62} alt="" height="110px" width="120px" /></div>
-        </div>
+        </div> */}
         <div className="responsive">
           <div className="gallery"><img src={a63} alt="" height="110px" width="120px" /></div>
         </div>
         <div className="responsive">
           <div className="gallery"><img src={a64} alt="" height="110px" width="120px" /></div>
         </div>
-        <div className="responsive">
+        {/* <div className="responsive">
           <div className="gallery"><img src={a55} alt="" height="110px" width="120px" /></div>
-        </div>
+        </div> */}
         <div className="responsive">
           <div className="gallery"><img src={a59} alt="" height="110px" width="120px" /></div>
         </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import vcbImage from "../../../Product Images/c&r panel.jpg"
+import vcbImage from "../../../Product Images/control___relay_panel-2-removebg-preview.png"
 import file from "../../../Images/Brochure_HTS_F_C&R,LT_SPECIAL.pdf"
 import { Link } from 'react-router-dom'
 
@@ -24,7 +24,7 @@ const CandR = () => {
                                 A control & relay panel is designed to provide to control the associated line or transformer through outdoor switchgear at various 11KV and 33KV zonal substations. The control & Relay panels are complete in themselves with all main and auxiliary relays, annunciation relay etc. These panels are used for the control & monitoring of electrical equipment’s such as transformers, generators and circuit breakers. Indoor Control panel for Outdoor VCB includes IDMT Numerical relay, Master Trip Relay, Trip circuit Supervision Relay, Indications & meters etc. These control & Relays panels are available in various combinations as single circuit or multi-circuit depending upon the customer requirements.
                             </p>
                             <a href={file}><button className="buttonProductOne" >Download</button></a>
-                            <button className="buttonProductTwo">Enquiry</button>
+                            <Link to="/contact"><button  className="buttonProductTwo">Enquiry</button></Link>
                         </div>
                     </div>
                 </div>

@@ -26,7 +26,7 @@ const Hydero = () => {
                             These Panels are widely used in power plants & are completely tailor made as per customer requirement & technical specification.
                             </p>
                             <a href={file}><button className="buttonProductOne" >Download</button></a>
-                            <button  className="buttonProductTwo">Enquiry</button>
+                            <Link to="/contact"><button  className="buttonProductTwo">Enquiry</button></Link>
                         </div>
                     </div>
                 </div>

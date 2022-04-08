@@ -1,11 +1,11 @@
 import React from 'react'
 import c1 from "../photo for flashing/33KV, kiosk for wind mil.JPG"
-import c2 from "../photo for flashing/33KV__ISOLATOR_PANEL-removebg-preview.png"
+import c2 from "../Product Images/generator relay.jpg"
 import c3 from "../photo for flashing/33KV__LBS_PANEL-removebg-preview.png"
-import c4 from "../photo for flashing/33KV__OUTDOOR_VCB_switchboard_panel-removebg-preview.png"
+import c4 from "../Product Images/vacum contractor.jpg"
 import c5 from "../photo for flashing/BUS_CAPACITOR_PANEL-removebg-preview.png"
-import c6 from "../photo for flashing/OUTDOOR_TYPE_11KV_3panel_board-removebg-preview.png"
-import c7 from "../photo for flashing/LT_PANEL_-2-removebg-preview.png"
+import c6 from "../Product Images/Synchronizing panel.jpg"
+import c7 from "../Product Images/load isolator.jpg"
 import { Link } from 'react-router-dom'
 
 const Carousell = () => {

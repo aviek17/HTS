@@ -25,7 +25,7 @@ const GeneratorRelay = () => {
                                 Generator Relay and Metering  Panels are widely used in power plants & are completely tailor made as per customer requirement & technical specification. It is compatible with Scada & remote operation.
                             </p>
                             <a href={file}><button className="buttonProductOne" >Download</button></a>
-                            <button className="buttonProductTwo">Enquiry</button>
+                            <Link to="/contact"><button  className="buttonProductTwo">Enquiry</button></Link>
                         </div>
                     </div>
                 </div>
